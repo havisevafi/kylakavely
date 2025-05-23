@@ -1,0 +1,34 @@
+{
+  "destinations": {
+    "1": {
+      "title": "Keksittylän kartano",
+      "image": "keksittylan_kartano.png",
+      "description": [
+        "Kuvassa esiintyy tunnelmallinen kartano suomalaisessa kesämaisemassa. Kartanon keltaiset seinät, valkoiset vuorilaudat ja tiilenpunainen katto luovat harmonisen kokonaisuuden. Kartanon edessä seisoo lipputanko, jossa liehuu ylpeästi Suomen lippu.",
+        "Taustalla siintävä sininen järvi lisää maisemaan syvyyttä ja rauhaa. Kokonaisuus kuvastaa suomalaista kesäidylliä parhaimmillaan — luonnonläheisyyttä, kulttuuriperintöä ja rauhallista tunnelmaa."
+      ],
+      "prev": null,
+      "next": 2
+    },
+    "2": {
+      "title": "Jauho-Bertilin leipomo",
+      "image": "leipomo.png",
+      "description": [
+        "paragraph 1",
+        "paragraph 2"
+      ],
+      "prev": 1,
+      "next": 3
+    },
+    "3": {
+      "title": "Havisevanlahden kalasatama",
+      "image": "havisevanlahden_kalasatama.jpg",
+      "description": [
+        "paragraph 1",
+        "paragraph 2"
+      ],
+      "prev": 2,
+      "next": null
+    }
+  }
+}
