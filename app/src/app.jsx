@@ -1,29 +1,12 @@
-import { createTheme, CssBaseline, ThemeProvider } from '@mui/material';
+import { CssBaseline, ThemeProvider } from '@mui/material';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { createHashRouter, RouterProvider } from 'react-router';
 import { Attraction } from './components/attraction/Attraction.jsx';
 import { Home } from './components/home/Home.jsx';
+import { appTheme } from './theme.js';
 
 import destinations from './data/destinations.json';
-
-const appTheme = createTheme({
-  typography: {
-    fontFamily: ['"Manrope"', 'sans-serif'].join(','),
-  },
-  components: {
-    MuiCssBaseline: {
-      styleOverrides: {
-        body: {
-          // backgroundColor: 'orangered',
-        },
-        a: {
-          textDecoration: 'none',
-        },
-      },
-    },
-  },
-});
 
 const router = createHashRouter([
   {

@@ -6,8 +6,8 @@ export const LocateButton = ({ onClick }) => {
     <Fab
       onClick={onClick}
       variant="extended"
-      color="secondary"
-      aria-label="Paikanna"
+      color="info"
+      aria-label="Etsi minua lähin oleva kohde"
       sx={{
         margin: '32px',
       }}
