@@ -1,4 +1,5 @@
 {
+  "heroImage": "siitamantie.jpg",
   "destinations": {
     "1": {
       "title": "Keksittylän kartano",
@@ -12,10 +13,10 @@
     },
     "2": {
       "title": "Jauho-Bertilin leipomo",
-      "image": "leipomo.png",
+      "image": "jauho-bertil.png",
       "description": [
-        "paragraph 1",
-        "paragraph 2"
+        "Jauho-Bertil oli vuonna 1907 perustettu maalaisleipomo, jonka perusti Bertil Graham, omistaja ja intohimoinen leipuri.",
+        "Jauho-Bertil tunnettiin juureen leivotuista ruisleivistä, voita tihkuvista pullista ja lämpimästä palvelustaan."
       ],
       "prev": 1,
       "next": 3
@@ -24,8 +25,8 @@
       "title": "Havisevanlahden kalasatama",
       "image": "havisevanlahden_kalasatama.jpg",
       "description": [
-        "paragraph 1",
-        "paragraph 2"
+        "Lahdenpohjukan kalasatama on kyläläisille sydämen asia, se oli elannon ja yhteisöllisyyden lähde sukupolvien ajan. Vesijärven rauhallisessa poukamassa sijaitseva satama kuhisi elämää aamunkoitteessa, kun kalastajat palasivat yön pyynnöiltä.",
+        "Tuoreet, kirkkaissa vesissä kasvaneet kalat myytiin suoraan veneistä, ja niissä maistui puhdas luonto, rehti työ ja aito perinne."
       ],
       "prev": 2,
       "next": null
