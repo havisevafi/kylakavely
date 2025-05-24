@@ -1,0 +1,39 @@
+{
+  "mainPage": {
+    "image": "siitamantie.jpg",
+    "title": "Tervetuloa Havisevalle",
+    "description": "Koe kylän historialliset kohteet"
+  },
+  "destinations": {
+    "1": {
+      "title": "Keksittylän kartano",
+      "image": "keksittylan_kartano.png",
+      "description": [
+        "Kuvassa esiintyy tunnelmallinen kartano suomalaisessa kesämaisemassa. Kartanon keltaiset seinät, valkoiset vuorilaudat ja tiilenpunainen katto luovat harmonisen kokonaisuuden. Kartanon edessä seisoo lipputanko, jossa liehuu ylpeästi Suomen lippu.",
+        "Taustalla siintävä sininen järvi lisää maisemaan syvyyttä ja rauhaa. Kokonaisuus kuvastaa suomalaista kesäidylliä parhaimmillaan — luonnonläheisyyttä, kulttuuriperintöä ja rauhallista tunnelmaa."
+      ],
+      "prev": null,
+      "next": 2
+    },
+    "2": {
+      "title": "Jauho-Bertilin leipomo",
+      "image": "jauho-bertil.png",
+      "description": [
+        "Jauho-Bertil oli vuonna 1907 perustettu maalaisleipomo, jonka perusti Bertil Graham, omistaja ja intohimoinen leipuri.",
+        "Leipomo tunnettiin juureen leivotuista ruisleivistä, voita tihkuvista pullista ja lämpimästä palvelustaan."
+      ],
+      "prev": 1,
+      "next": 3
+    },
+    "3": {
+      "title": "Havisevanlahden kalasatama",
+      "image": "havisevanlahden_kalasatama.jpg",
+      "description": [
+        "Lahdenpohjukan kalasatama on kyläläisille sydämen asia, se oli elannon ja yhteisöllisyyden lähde sukupolvien ajan. Vesijärven rauhallisessa poukamassa sijaitseva satama kuhisi elämää aamunkoitteessa, kun kalastajat palasivat yön pyynnöiltä.",
+        "Tuoreet, kirkkaissa vesissä kasvaneet kalat myytiin suoraan veneistä, ja niissä maistui puhdas luonto, rehti työ ja aito perinne."
+      ],
+      "prev": 2,
+      "next": null
+    }
+  }
+}
