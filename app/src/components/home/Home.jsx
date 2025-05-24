@@ -5,7 +5,7 @@ import { AttractionCard } from './AttractionCard.jsx';
 import { Hero } from './Hero.jsx';
 
 export const Home = () => {
-  const { heroImage, destinations } = useRouteLoaderData('destinations');
+  const { mainPage, destinations } = useRouteLoaderData('destinations');
 
   const onLocate = () => {
     console.log('TODO: locate nearest attraction and show it');
@@ -40,7 +40,7 @@ export const Home = () => {
 
   return (
     <div>
-      <Hero image={heroImage} onLocate={onLocate} />
+      <Hero page={mainPage} onLocate={onLocate} />
       <Paper></Paper>
       <Grid
         container

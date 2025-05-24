@@ -2,7 +2,7 @@ import { CssBaseline, ThemeProvider } from '@mui/material';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { createHashRouter, RouterProvider } from 'react-router';
-import { Attraction } from './components/attraction/Attraction.jsx';
+import { Destination } from './components/destination/Destination.jsx';
 import { Home } from './components/home/Home.jsx';
 import { appTheme } from './theme.js';
 
@@ -20,7 +20,7 @@ const router = createHashRouter([
       },
       {
         path: '/:id',
-        element: <Attraction />,
+        element: <Destination />,
       },
     ],
   },

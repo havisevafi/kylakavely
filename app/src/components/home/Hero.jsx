@@ -4,12 +4,12 @@ import Typography from '@mui/material/Typography';
 import { resolveImagePath } from '../../util/util.js';
 import { LocateButton } from './LocateButton.jsx';
 
-export const Hero = ({ image, onLocate }) => (
+export const Hero = ({ page, onLocate }) => (
   <Box
     sx={{
       height: '40vh',
       width: '100%',
-      backgroundImage: `url(${resolveImagePath(`${image}`)})`,
+      backgroundImage: `url(${resolveImagePath(`${page.image}`)})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
@@ -43,9 +43,9 @@ export const Hero = ({ image, onLocate }) => (
         fontWeight="600"
         lineHeight="150%"
       >
-        Tervetuloa Havisevalle
+        {page.title}
       </Typography>
-      <Typography variant="h5">Koe kylän historialliset kohteet</Typography>
+      <Typography variant="h5">{page.description}</Typography>
       <LocateButton onClick={onLocate} />
     </Container>
   </Box>

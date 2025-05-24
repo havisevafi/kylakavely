@@ -1,5 +1,9 @@
 {
-  "heroImage": "siitamantie.jpg",
+  "mainPage": {
+    "image": "siitamantie.jpg",
+    "title": "Tervetuloa Havisevalle",
+    "description": "Koe kylän historialliset kohteet"
+  },
   "destinations": {
     "1": {
       "title": "Keksittylän kartano",
@@ -16,7 +20,7 @@
       "image": "jauho-bertil.png",
       "description": [
         "Jauho-Bertil oli vuonna 1907 perustettu maalaisleipomo, jonka perusti Bertil Graham, omistaja ja intohimoinen leipuri.",
-        "Jauho-Bertil tunnettiin juureen leivotuista ruisleivistä, voita tihkuvista pullista ja lämpimästä palvelustaan."
+        "Leipomo tunnettiin juureen leivotuista ruisleivistä, voita tihkuvista pullista ja lämpimästä palvelustaan."
       ],
       "prev": 1,
       "next": 3
