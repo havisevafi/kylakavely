@@ -2,32 +2,36 @@ import { createTheme } from '@mui/material';
 
 export const appTheme = createTheme({
   palette: {
-    mode: 'light',
     primary: {
-      main: '#4E6C50', // Sage green
-      contrastText: '#FAF8F1',
+      main: '#008C8C',
+      contrastText: '#FFF5C3',
     },
     secondary: {
-      main: '#A98467', // Warm clay
-      contrastText: '#FAF8F1',
+      main: '#C44A26',
     },
     background: {
-      default: '#FAF8F1', // Very light beige
-      paper: '#F0EBE3', // Soft stone
+      default: '#FFFFFF',
+      paper: '#F0EBE3',
     },
     text: {
-      primary: '#2F2F2F', // Almost black
-      secondary: '#6E6658', // Warm gray-brown
+      primary: '#2C3E50',
+      secondary: '#2C3E50',
     },
-    info: {
-      main: '#D0C9C0', // Muted sand
+    error: {
+      main: '#C44A26',
     },
     warning: {
-      main: '#F4DFB6', // Pale gold
+      main: '#E4C084',
+    },
+    info: {
+      main: '#78A693',
+    },
+    success: {
+      main: '#008C8C',
     },
   },
   typography: {
-    fontFamily: ['"Manrope"', 'sans-serif'].join(','),
+    fontFamily: ['Manrope', 'sans-serif'].join(','),
     h1: {
       [`@media (max-width:600px)`]: {
         fontSize: '2rem',
@@ -47,11 +51,15 @@ export const appTheme = createTheme({
   components: {
     MuiCssBaseline: {
       styleOverrides: {
-        body: {
-          // backgroundColor: 'orangered',
-        },
         a: {
           textDecoration: 'none',
+        },
+      },
+    },
+    MuiCardContent: {
+      styleOverrides: {
+        root: {
+          backgroundColor: '#FFFFFF',
         },
       },
     },

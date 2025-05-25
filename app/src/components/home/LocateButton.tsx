@@ -10,7 +10,7 @@ export const LocateButton = ({ onClick }: LocateButtonProps) => {
     <Fab
       onClick={onClick}
       variant="extended"
-      color="info"
+      color="secondary"
       aria-label="Etsi minua lähimpänä oleva kohde"
       sx={{
         margin: '32px',
