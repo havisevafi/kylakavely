@@ -26,7 +26,7 @@ export const Destination = () => {
         <Grid container gap={8} justifyContent="center">
           <Grid
             display="flex"
-            size={{ xs: 6 }}
+            size={{ xs: 12 }}
             marginTop={4}
             justifyContent="center"
           >
@@ -36,7 +36,7 @@ export const Destination = () => {
               alt={destination.title}
             />
           </Grid>
-          <Grid size={{ xs: 6 }}>
+          <Grid size={{ xs: 12 }}>
             <Typography
               variant="h2"
               component="h1"
@@ -56,7 +56,7 @@ export const Destination = () => {
               {destination.title}
             </Typography>
           </Grid>
-          <Grid size={{ xs: 6 }}>
+          <Grid size={{ xs: 12 }}>
             {destination.description.map((paragraph, index) => {
               return <p key={index}>{paragraph}</p>;
             })}
