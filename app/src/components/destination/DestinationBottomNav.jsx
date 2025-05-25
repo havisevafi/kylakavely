@@ -5,8 +5,8 @@ import { useNavigate } from 'react-router';
 
 export const DestinationBottomNav = ({ prev, next }) => {
   const navigate = useNavigate();
+
   const onChange = (_, value) => {
-    console.log('nav', `/${value}`);
     navigate(`/${value}`);
   };
 

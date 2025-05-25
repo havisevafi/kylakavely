@@ -1,14 +1,34 @@
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import { useRouteLoaderData } from 'react-router';
+import { useNavigate, useRouteLoaderData } from 'react-router';
+import { findNearestDestinationId, getGeoLocation } from '../../util/util.js';
 import { AttractionCard } from './AttractionCard.jsx';
 import { Hero } from './Hero.jsx';
 
 export const Home = () => {
   const { mainPage, destinations } = useRouteLoaderData('destinations');
+  const navigate = useNavigate();
+
+  const onLocateSuccess = (position) => {
+    const currentLoc = {
+      lat: position.coords.latitude,
+      lng: position.coords.longitude,
+    };
+
+    const nearestDestinationId = findNearestDestinationId(
+      destinations,
+      currentLoc,
+    );
+
+    navigate(`/${nearestDestinationId}`);
+  };
+
+  const onLocateError = (err) => {
+    alert(err);
+  };
 
   const onLocate = () => {
-    console.log('TODO: locate nearest attraction and show it');
+    getGeoLocation(onLocateSuccess, onLocateError);
   };
 
   const attractions = Object.entries(destinations).map(([id, data]) => {
