@@ -1,10 +1,16 @@
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
+import { PageBase } from '../../data';
 import { resolveImagePath } from '../../util/util.js';
 import { LocateButton } from './LocateButton.jsx';
 
-export const Hero = ({ page, onLocate }) => (
+interface HeroProps {
+  page: PageBase;
+  onLocate: () => void;
+}
+
+export const Hero = ({ page, onLocate }: HeroProps) => (
   <Box
     sx={{
       height: '40vh',
@@ -45,7 +51,11 @@ export const Hero = ({ page, onLocate }) => (
       >
         {page.title}
       </Typography>
-      <Typography variant="h5">{page.description}</Typography>
+      {page.description.map((p, idx) => (
+        <Typography key={idx} variant="h5">
+          {p}
+        </Typography>
+      ))}
       <LocateButton onClick={onLocate} />
     </Container>
   </Box>

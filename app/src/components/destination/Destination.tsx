@@ -3,14 +3,17 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import { useParams, useRouteLoaderData } from 'react-router';
+import { DestinationsData } from '../../data';
 import { resolveImagePath } from '../../util/util.js';
-
-import './Destination.scss';
 import { DestinationBottomNav } from './DestinationBottomNav.jsx';
 
+import './Destination.scss';
+
 export const Destination = () => {
-  const { id } = useParams();
-  const { destinations } = useRouteLoaderData('destinations');
+  const { id } = useParams() as { id: string };
+  const { destinations } = useRouteLoaderData(
+    'destinations',
+  ) as DestinationsData;
   const destination = destinations[id];
 
   return (
@@ -23,8 +26,7 @@ export const Destination = () => {
         <Grid container gap={8} justifyContent="center">
           <Grid
             display="flex"
-            item
-            xs={6}
+            size={{ xs: 6 }}
             marginTop={4}
             justifyContent="center"
           >
@@ -34,7 +36,7 @@ export const Destination = () => {
               alt={destination.title}
             />
           </Grid>
-          <Grid item xs={6}>
+          <Grid size={{ xs: 6 }}>
             <Typography
               variant="h2"
               component="h1"
@@ -54,7 +56,7 @@ export const Destination = () => {
               {destination.title}
             </Typography>
           </Grid>
-          <Grid item xs={6}>
+          <Grid size={{ xs: 6 }}>
             {destination.description.map((paragraph, index) => {
               return <p key={index}>{paragraph}</p>;
             })}

@@ -26,7 +26,7 @@ const router = createHashRouter([
   },
 ]);
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ThemeProvider theme={appTheme}>
       <CssBaseline />

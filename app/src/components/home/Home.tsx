@@ -1,18 +1,21 @@
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import { useNavigate, useRouteLoaderData } from 'react-router';
+import { DestinationsData } from '../../data';
 import { findNearestDestinationId, getGeoLocation } from '../../util/util.js';
 import { AttractionCard } from './AttractionCard.jsx';
 import { Hero } from './Hero.jsx';
 
 export const Home = () => {
-  const { mainPage, destinations } = useRouteLoaderData('destinations');
+  const { mainPage, destinations } = useRouteLoaderData(
+    'destinations',
+  ) as DestinationsData;
   const navigate = useNavigate();
 
-  const onLocateSuccess = (position) => {
+  const onLocateSuccess = (position: GeolocationPosition) => {
     const currentLoc = {
       lat: position.coords.latitude,
-      lng: position.coords.longitude,
+      lon: position.coords.longitude,
     };
 
     const nearestDestinationId = findNearestDestinationId(
@@ -23,8 +26,8 @@ export const Home = () => {
     navigate(`/${nearestDestinationId}`);
   };
 
-  const onLocateError = (err) => {
-    alert(err);
+  const onLocateError = (err: GeolocationPositionError) => {
+    alert(err); // TOOD:
   };
 
   const onLocate = () => {
@@ -34,10 +37,8 @@ export const Home = () => {
   const attractions = Object.entries(destinations).map(([id, data]) => {
     return (
       <Grid
-        item
-        xs={1}
-        sm={2}
-        md={4}
+        key={id}
+        size={{ xs: 1, sm: 2, md: 4 }}
         sx={{
           paddingTop: '16px',
           paddingLeft: '16px',

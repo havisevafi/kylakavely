@@ -1,7 +1,7 @@
-import js from '@eslint/js'
-import globals from 'globals'
-import reactHooks from 'eslint-plugin-react-hooks'
-import reactRefresh from 'eslint-plugin-react-refresh'
+import js from '@eslint/js';
+import reactHooks from 'eslint-plugin-react-hooks';
+import reactRefresh from 'eslint-plugin-react-refresh';
+import globals from 'globals';
 
 export default [
   { ignores: ['dist'] },
@@ -30,4 +30,18 @@ export default [
       ],
     },
   },
-]
+  {
+    parser: '@typescript-eslint/parser',
+    extends: [
+      'eslint:recommended',
+      'plugin:react/recommended',
+      'plugin:@typescript-eslint/recommended',
+    ],
+    plugins: ['react', '@typescript-eslint'],
+    settings: {
+      react: {
+        version: 'detect',
+      },
+    },
+  },
+];

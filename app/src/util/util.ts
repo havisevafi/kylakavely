@@ -1,12 +1,17 @@
-export const resolveImagePath = (image) =>
+import { DestinationLocation, Destinations } from '../data';
+
+export const resolveImagePath = (image: string) =>
   `${import.meta.env.BASE_URL}/images/${image}`;
 
-const toRad = (angle) => (angle * Math.PI) / 180;
+const toRad = (angle: number) => (angle * Math.PI) / 180;
 
-export const haversineDistanceKm = (loc1, loc2) => {
+export const haversineDistanceKm = (
+  loc1: DestinationLocation,
+  loc2: DestinationLocation,
+) => {
   const R = 6361.653; // Mean radius (in km) of the Earth near 61.5 parallel
   const dLat = toRad(loc2.lat - loc1.lat);
-  const dLon = toRad(loc2.lng - loc1.lng);
+  const dLon = toRad(loc2.lon - loc1.lon);
 
   const a =
     Math.sin(dLat / 2) * Math.sin(dLat / 2) +
@@ -19,15 +24,19 @@ export const haversineDistanceKm = (loc1, loc2) => {
   return R * c; // Distance in km
 };
 
-export const getGeoLocation = (onSuccess, onError) => {
-  if (!navigator.geolocation) {
-    onError('Geolocation is not supported by your browser');
-  } else {
+export const getGeoLocation = (
+  onSuccess: PositionCallback,
+  onError: PositionErrorCallback,
+) => {
+  if (navigator?.geolocation) {
     navigator.geolocation.getCurrentPosition(onSuccess, onError);
   }
 };
 
-export const findNearestDestinationId = (destinations, currentLoc) => {
+export const findNearestDestinationId = (
+  destinations: Destinations,
+  currentLoc: DestinationLocation,
+) => {
   const destinationsWithDistances = Object.entries(destinations).map(
     ([id, d]) => ({
       ...d,
@@ -37,8 +46,6 @@ export const findNearestDestinationId = (destinations, currentLoc) => {
   );
 
   destinationsWithDistances.sort((d1, d2) => d1.distance - d2.distance);
-
-  console.log('destinationsWithDistances', destinationsWithDistances);
 
   return destinationsWithDistances[0].id;
 };

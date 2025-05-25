@@ -1,13 +1,17 @@
 import NavigationIcon from '@mui/icons-material/Navigation';
 import Fab from '@mui/material/Fab';
 
-export const LocateButton = ({ onClick }) => {
+interface LocateButtonProps {
+  onClick: () => void;
+}
+
+export const LocateButton = ({ onClick }: LocateButtonProps) => {
   return (
     <Fab
       onClick={onClick}
       variant="extended"
       color="info"
-      aria-label="Etsi minua lähin oleva kohde"
+      aria-label="Etsi minua lähimpänä oleva kohde"
       sx={{
         margin: '32px',
       }}

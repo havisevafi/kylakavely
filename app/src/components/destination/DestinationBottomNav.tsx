@@ -1,12 +1,21 @@
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import Paper from '@mui/material/Paper';
+import React from 'react';
 import { useNavigate } from 'react-router';
 
-export const DestinationBottomNav = ({ prev, next }) => {
+interface DestinationBottomNavProps {
+  prev?: number;
+  next?: number;
+}
+
+export const DestinationBottomNav = ({
+  prev,
+  next,
+}: DestinationBottomNavProps) => {
   const navigate = useNavigate();
 
-  const onChange = (_, value) => {
+  const onChange = (_: React.SyntheticEvent, value: string) => {
     navigate(`/${value}`);
   };
 
