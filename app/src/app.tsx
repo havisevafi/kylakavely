@@ -6,13 +6,18 @@ import { Destination } from './components/destination/Destination.jsx';
 import { Home } from './components/home/Home.jsx';
 import { appTheme } from './theme.js';
 
-import destinations from './data/destinations.json';
+import mockDestinations from './data/destinations.json';
+
+const havisOrgLoader = () => {
+  return fetch('https://www.havis.org/data/destinations.json');
+};
 
 const router = createHashRouter([
   {
     id: 'destinations',
     path: '/',
-    loader: () => destinations,
+    loader: () => mockDestinations,
+    // loader: havisOrgLoader,
     children: [
       {
         index: true,

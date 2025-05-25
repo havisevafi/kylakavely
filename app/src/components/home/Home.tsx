@@ -38,7 +38,7 @@ export const Home = () => {
     return (
       <Grid
         key={id}
-        size={{ xs: 1, sm: 2, md: 4 }}
+        size={{ xs: 12, sm: 5, md: 5, lg: 3, xl: 3 }}
         sx={{
           paddingTop: '16px',
           paddingLeft: '16px',
@@ -62,7 +62,7 @@ export const Home = () => {
   return (
     <div>
       <Hero page={mainPage} onLocate={onLocate} />
-      <Paper></Paper>
+      <Paper>{/*Placeholder*/}</Paper>
       <Grid
         container
         gap={2}

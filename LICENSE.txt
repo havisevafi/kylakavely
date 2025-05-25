@@ -1,0 +1,11 @@
+Copyright (c) 2025 haviseva.fi
+
+All rights reserved.
+
+This repository and its contents may not be copied, distributed, modified, published,
+or used in any form without explicit written permission from the copyright holder.
+
+This repository contains third-party assets listed in ATTRIBUTIONS.md that are used
+under separate licenses (e.g., CC BY 4.0). These assets are not covered under this
+license.
+
