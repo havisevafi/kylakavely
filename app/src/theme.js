@@ -28,6 +28,21 @@ export const appTheme = createTheme({
   },
   typography: {
     fontFamily: ['"Manrope"', 'sans-serif'].join(','),
+    h1: {
+      [`@media (max-width:600px)`]: {
+        fontSize: '2rem',
+      },
+    },
+    h2: {
+      [`@media (max-width:600px)`]: {
+        fontSize: '1.75rem',
+      },
+    },
+    h5: {
+      [`@media (max-width:600px)`]: {
+        fontSize: '1rem',
+      },
+    },
   },
   components: {
     MuiCssBaseline: {
