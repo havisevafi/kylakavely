@@ -31,6 +31,9 @@
   "start_url": "./",
   "scope": "/kylakavely",
   "display": "standalone",
+  "permissions": [
+    "geolocation"
+  ],
   "theme_color": "#000000",
   "background_color": "#2a80bf"
 }
