@@ -5,45 +5,75 @@
     "description": [ "Koe kylän historialliset kohteet" ]
   },
   "destinations": {
-    "1": {
-      "title": "Keksittylän kartano",
-      "image": "keksittylan_kartano.png",
+    "16": {
+      "title": "16. Piikainsilta",
+      "image": "16_piikainsilta.jpg",
       "description": [
-        "Kuvassa esiintyy tunnelmallinen kartano suomalaisessa kesämaisemassa. Kartanon keltaiset seinät, valkoiset vuorilaudat ja tiilenpunainen katto luovat harmonisen kokonaisuuden. Kartanon edessä seisoo lipputanko, jossa liehuu ylpeästi Suomen lippu.",
-        "Taustalla siintävä sininen järvi lisää maisemaan syvyyttä ja rauhaa. Kokonaisuus kuvastaa suomalaista kesäidylliä parhaimmillaan — luonnonläheisyyttä, kulttuuriperintöä ja rauhallista tunnelmaa."
+        "Piikainsilta on Myllyojan ylittävän sillan kutsumanimi. Hauska nimi on syntynyt jo vuosia sitten. Uotilan korvessa (nimeltään Ristimäki, joka sijaitsee 9-tien toisella puolella nykyisen Käppeentien ja Jokipolventien välissä) käytiin Uotilan omistusaikana pelto- ja muissa töissä eväiden kanssa.",
+        "Piikojen oli kuitenkin lähdettävä kesken töiden päivällä karjan pariin taloon käsilypsylle. Näiden reissujen aikaan piiat tulivat keksineeksi nopean oikopolun, jolloin he ylittivät Myllyojan riukuja pitkin. Tästä muodostui sanonta Piikainsilta.",
+        "Myöhemmin 1800-luvun alkupuolella, kun Tampereelta pohjoiseen päin menevää rataa rakennettiin, pari riu’usta kyhätyn sillan tilalle rakennettiin kunnon silta ja paikkaa vaihdettiin. Nimi kuitenkin säilyi entisellään. Rautatien valmistuttua ihmiset ja karja kulkivat Uotilan ylikäytävän kautta."
       ],
       "location": {
-        "lat": 61.534960,
-        "lon": 24.081517
+        "lat": 61.5511809240321,
+        "lon": 24.073590088805197
       },
-      "next": 2
+      "next": 17
     },
-    "2": {
-      "title": "Jauho-Bertilin leipomo",
-      "image": "jauho-bertil.png",
+    "17": {
+      "title": "17. Havisevan koulu",
+      "image": "17_havisevan_koulu.jpg",
       "description": [
-        "Jauho-Bertil oli vuonna 1907 perustettu maalaisleipomo, jonka perusti Bertil Graham, omistaja ja intohimoinen leipuri.",
-        "Leipomo tunnettiin juureen leivotuista ruisleivistä, voita tihkuvista pullista ja lämpimästä palvelustaan."
+        "Havisevan koulu on rakennettu vuonna 1957 Nikkilän tilasta lohkaistulle tontille. Se peruskorjattiin  keväällä 1996, jolloin opettajan asunnot otettiin koulun käyttöön. Tällöin lisää oppilaita voitiin kuljettaa Ruutanasta Havisevan koululle.",
+        "Lihasulasta koululaiskuljetukset olivat alkaneet jo aikaisemmin, koska Lihasulan koulu oli lakkautettu.  Peruskorjauksen ajan, keväällä 1996, oppilaat kuljetettiin Lihasulan kartanoon, joka toimi väliaikaisesti kouluna.",
+        "Alla on kuvia koulun rakennusvaiheesta vuosilta 1956-1957 Pirkko Antilan, Havisevan koulun pitkäaikaisen opettajan (1949-1984) albumista.",
+        "Lihasulan kartanon “väliaikaiskoulussa” keväällä 1996 oppilailla oli mahdollisuus hoitaa tilan lampaita ja saada oma nimikkolammas. Näin muistelee Anni Antila joka oli Havisevan koulun oppilas tuolloin."
       ],
       "location": {
-        "lat": 61.545225,
-        "lon": 24.070859
+        "lat": 61.545151667979766,
+        "lon": 24.071178357144277
       },
-      "prev": 1,
-      "next": 3
+      "next": 29,
+      "prev": 16
     },
-    "3": {
-      "title": "Havisevanlahden kalasatama",
-      "image": "havisevanlahden_kalasatama.jpg",
+    "29": {
+      "title": "29. Haralanharjun näkötorni",
+      "image": "29_haralanharjun_nakotorni.jpg",
       "description": [
-        "Lahdenpohjukan kalasatama on kyläläisille sydämen asia, se oli elannon ja yhteisöllisyyden lähde sukupolvien ajan. Vesijärven rauhallisessa poukamassa sijaitseva satama kuhisi elämää aamunkoitteessa, kun kalastajat palasivat yön pyynnöiltä.",
-        "Tuoreet, kirkkaissa vesissä kasvaneet kalat myytiin suoraan veneistä, ja niissä maistui puhdas luonto, rehti työ ja aito perinne."
+        "Suinulan ja Havisevan kylien välillä metsäisellä vuorella on Haralanharjun näkötorni. Vuorta kutsutaan virheellisesti Haralan- tai Harjulan harjuksi, mikä on totta kai kauniimpi nimi kuin Haralan vuori. Alkuperäinen nimi lienee ollut yksinkertaisesti Vuorenmaa, joksi sitä sanotaan melko yleisesti paikallisväestön keskuudessa.",
+        "Vieraillessaan kesällä 1853 Franssilassa Zachris Topelius kävi Haralanharjulla, ja tämän innoittamana hän kirjoitti runon Kesäpäivä Kangasalla.",
+        "Suomen Matkailijayhdistyksen Tampereen haaraosasto rakennutti Haralanharjun ensimmäisen näkötornin vuonna 1895 Topeliuksen runon saaman kuuluisuuden myötä, ja sen piirsi Tampereen vt. kaupunginarkkitehti Lambert Pettersson. Seppälä, Tavela, Törnqvist, Berg ja Markkula toimivat paikallisina tavaran lahjoittajina (lähde: Turistföreningens i Finland årsbok för 1896).",
+        "Torni sijaitsee vuosina 1896-1900 toimitetussa Havisevan isonjaon järjestelyssä kylän yhteiseksi erotetulla alueella, joka on tasan hehtaarin kokoinen. Tällöin oli myös esillä alueen ostaminen ja muodostaminen kruununpuistoksi. Huligaanit polttivat ensimmisen näkötornin juhannusyönä 1922.",
+        "Tornin tuhoutumisen jälkeen alettiin heti suunnitella uutta tornia, jonka ensimmäinen suunnitelma tehtiin vuonna 1923. Sen mukaan olisi rakennettu 10 metriä korkea \"linnantorni\" luonnonkivistä ja katselutasanne olisi ollut avoin. Matkailijayhdistys piti sitä liian matalana ja kalliina. Seuraava suunnitelma tehtiin vuonna 1926. Siinä tornista tuli vielä komeampi ja kalliimpi. (Routto: 100). Mutta kun Suinulan Nuorisoseuran johtama talkoovoittoinen varainkeruu ei johtanut riittäviin tuloksiin 1920-luvun loppupuoleen mennessä, nämä suunnitelmat hautautuivat vähin äänin.",
+        "Uuden tornin rakentaminen onnistui kuitenkin, kun Suinulan Nuorisoseura ry (tornin omistaja), Suinula-Havisevan maatilat sekä lukuisat yksityishenkilöt rakensivat sen talkoilla uudestaan juhannukseksi 1932, esim. isot pystyhirret olivat puoliksi Markkulan ja Seppälän talojen mailta. Piirustukset laati ilmaiseksi Suinulan asemalta insinööri Niilo Savia (Helenius). Rakennustöitä johti Suinulasta rakennusmestari Kalle Elis Helén. Talvisodan aikana näkötorni toimi ilmavalvontatornina.",
+        "Suinulan Nuorisoseura pystytti harmaagraniittisen muistopaaden Topeliuksen ja Kesäpäivä Kangasalla -laulun muistoksi 11.6.1949. Muistomerkin on suunnitellut taiteilija Voipa Nuorukainen Sulkava (1884-1970), ja sen on valmistanut Suomen Graniitin veistämö Tampereella. Korkokuva on asetettu (symbolisesti) osoittamaan Vesijärven yli Roineen ja Längelmäveden suuntaan.",
+        "Vuonna 1986 tornin viereen rakennettiin samantyylinen puinen esiintymislava arkkitehti Matti Silvennoisen piirustusten pohjalta (Routto: 102). Tornin yläosa korjattiin 2002 ja keski- sekä alaosat uusittiin 2003. Toinen näkötorni sytytettiin palamaan 10.1.2007 ja se tuhoutui tulipalossa täysin. Suinulan nuorisoseura teki päätöksen uuden tornin rakentamisesta heti tuhopolton jälkeen.",
+        "Haralanharjun kolmas näkötorni, joka on samanlainen kuin edeltäjänsä, rakennettiin vuoden 2008 loppuun mennessä Suinulan Nuorisoseuran toimesta. Rakennustöistä vastasi rakennusurakointi Tuominen Kangasalta. Rakentamiseen saatiin runsaasti lahjoituksia, ja rahaa kerättiin myös muun muassa Kisarannassa järjestetyillä tansseilla. Torni on auki ympäri vuoden, siellä järjestetään erilaisia tapahtumia ja kesäisin tornilla on toiminut myös kahvila."
       ],
       "location": {
-        "lat": 61.542642,
-        "lon": 24.095026
+        "lat": 61.53472791775906,
+        "lon": 24.082869605328035
       },
-      "prev": 2
+      "next": 26,
+      "prev": 17
+    },
+    "26": {
+      "title": "26. Suinulan urheilukenttä",
+      "image": "26_suinulan_urheilukentta.jpg",
+      "description": [
+        "Tämä ympäristö oli ennen vilkkaan toiminnan paikka. Urheilukentän vieressä, harjulle menevän tien toisella puolella oli Suinulan VPK:n tanssilava. Siellä pidettiin viikoittain VPK:n ja Harjulan Hallan yhteisiä tansseja, jotka olivat hyvin suosittuja keräten väkeä ympäri maakuntaa. Lavalla soitti hyviä orkestereita, mm. Acre Kari saksofoneineen oli suosittu. Järjestäjinä ja järjestysmiehinä toimivat Hallasta ainakin Seppälän ja Lehdon veljekset, Ojalan Esko ja Niemen Erkki. Lava purettiin 1960-luvun alussa isojen tanssilavojen, kuten Rönnin ja Kisarannan tultua muotiin.",
+        "Urheilukenttää alettiin rakentaa 1950-luvun taitteessa Markkulan maalle. Kentän rakentamista varten perustettiin Suinulan urheilukenttäyhdistys. Puheenjohtajana oli Kalle Niemi, joka toimi pitkään kunnanvaltuutettunakin. Muita jäseniä olivat  Aku Perälä,Usko Östring, Olli Viitanen ja Frans Laine. Raskaat maansiirtotyöt hoidettiin koneilla, mutta pääosin työt tehtiin talkoilla ja käsivoimin. Esimerkillisen innokkaasti oli kauppias Juho Antila talkoissa, vaikka oli jo 70-vuotias.",
+        "Kentästä tuli hiekkakenttä, ja sellaisena se oli jonkin aikaa. Kenttää käytettiin jo rakennusvaiheen aikana innokkaasti jalkapallon pelaamiseen. Valmiilla kentällä olivat myös juoksuradat ja kenttälajien suorituspaikat.",
+        "Kentän vihkiäisiä vietettiin 8.6.1952.  Ne olivat juhlavat ja yleisöä oli paikalla arviolta yli tuhat henkeä. Vihkiäisiä juhlistivat 11 entistä olympiavoittajaa. Mukana olivat mm. Hannes Kolehmainen, Tapio Rautavaara, Heikki Hasu ja Lyydia Wideman. Olympiaurheilijat olivat herättelemässä kiinnostusta samana kesänä pidettäviin Helsingin olympialaisiin. Kenttä annettiin kunnalle, joka rakennutti viereen huoltorakennuksen ja kunnosti kenttää.",
+        "Alkoi Hallan vilkas yleisurheilukausi. Hallalla oli parhaillaan kolmisenkymmentä koulutettua yleisurheilutuomaria, joten virallisiakin kisojan pystyttiin pitämään. Niitä olivat seuraottelut, kunnanmestaruuskisat ja ennen kaikkea kyläottelu Haviseva- Suinula. Halla pelasi pesäpalloa piirin sarjoissa ja kotiottelut pelattiin omalla kentällä.",
+        "Kunta teetti kentälle kaivon pumppuineen, mikä mahdollisti pelikentän jäädyttämisen talvella. Talkoilla tehtiin kiekkokaukalon laidat, ja kaukalon avajaiset pidettiin tammikuussa 1965. Halla pelasi jonkun vuoden piirin sarjoissa, mutta menestys oli huonoa. Kaukalo lahjoitettiin kunnalle ehdolla, ettei sitä viedä kylältä pois. Ehkä tämän sopimuksen ansiosta Havisevan koululla on edelleen kunnan huolehtima kaukalo.",
+        "Kunta aikoi vuonna 2008 purkaa kentän pahoin vaurioituneen huoltorakennuksen. Sen  ikkunat oli rikottu, seinät töhritty, ovet rempallaan ja sähköt revitty. Halla päätti ehdottaa kunnalle rakennuksen vuokraamista ja sen kunnostamista talkoilla. Kunta suostuikin vuokraamaan rakennuksen kymmeneksi vuodeksi. Vuokrasopimus allekirjoitettiin 1.7.2009. Vuokra on 100 euroa vuodessa sisältäen sähkön. Lisäksi kunta avusti 1500 eurolla rakennustarvikkeiden hankinnassa. Kunnostus aloitettiin 2009 syksyllä. Lahjoituksina saatiin mm. kattopellit, ovi ja ikkunat. Ikkunat teki metsäkoneen lähes särkymättömästä lasista Jarmo ja Arja Mäkinen. Laseja ei ole saatuhajalle ja muutenkin rakennus on pysynyt kunnossa. Siinä on lämmitettävä tila Hallan arkistotavaroille ja muuta varastotilaa sekä pukukoppeja.",
+        "Urheilukenttä on tärkeä Hallan toiminnalle. Kesäisin siellä järjestetään yleisurheilukoulu lapsille. Osanottajia on ollut runsaasti. Kauden lopuksi on seuran mestaruuskilpailut. Myös muut seurat käyttävät kenttää innokkaasti. Erilaiset peliporukat pelailevat jalkapalloa, ja ainakin TPV:N juniorit harjoittelevat jalkapalloa. Kenttä on siis paikkansa ansainnut, ja voimme edelleen nauttia vanhojen Hallalaisten aikaansaannoksista."
+      ],
+      "location": {
+        "lat": 61.536827,
+        "lon": 24.059441
+      },
+      "prev": 29
     }
   }
 }
