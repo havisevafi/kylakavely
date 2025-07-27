@@ -1,7 +1,26 @@
+type ContentType = 'subtitle' | 'paragraph' | 'image';
+
+export interface ContentBlock {
+  type: ContentType;
+}
+
+export interface ImageBlock extends ContentBlock {
+  url: string;
+  title: string;
+}
+
+export interface ParagraphBlock extends ContentBlock {
+  text: string;
+}
+
+export interface SubtitleBlock extends ContentBlock {
+  text: string;
+}
+
 export interface PageBase {
   image: string;
   title: string;
-  description: string[];
+  content: ContentBlock[];
 }
 
 export interface DestinationLocation {

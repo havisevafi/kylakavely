@@ -3,6 +3,7 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import { PageBase } from '../../data';
 import { resolveImagePath } from '../../util/util.js';
+import { Block } from '../contentblocks';
 import { LocateButton } from './LocateButton.jsx';
 
 interface HeroProps {
@@ -51,9 +52,9 @@ export const Hero = ({ page, onLocate }: HeroProps) => (
       >
         {page.title}
       </Typography>
-      {page.description.map((p, idx) => (
+      {page.content.map((block, idx) => (
         <Typography key={idx} variant="h5">
-          {p}
+          <Block contentBlock={block} />
         </Typography>
       ))}
       <LocateButton onClick={onLocate} />

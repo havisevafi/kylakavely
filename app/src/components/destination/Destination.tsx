@@ -2,9 +2,11 @@ import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
+import { useEffect } from 'react';
 import { useParams, useRouteLoaderData } from 'react-router';
-import { DestinationsData } from '../../data';
+import type { DestinationsData } from '../../data';
 import { resolveImagePath } from '../../util/util.js';
+import { Block } from '../contentblocks';
 import { DestinationBottomNav } from './DestinationBottomNav.jsx';
 
 import './Destination.scss';
@@ -15,6 +17,13 @@ export const Destination = () => {
     'destinations',
   ) as DestinationsData;
   const destination = destinations[id];
+
+  useEffect(() => {
+    // In PWA mode moving to next destination keeps the scrolled location at
+    // the bottom of the page. This tries to make it nicer for the user to get
+    // directly at the top of the page when changing between destinations.
+    window.scrollTo(0, 0);
+  }, [id]);
 
   return (
     <>
@@ -57,8 +66,8 @@ export const Destination = () => {
             </Typography>
           </Grid>
           <Grid size={{ xs: 12 }}>
-            {destination.description.map((paragraph, index) => {
-              return <p key={index}>{paragraph}</p>;
+            {destination.content.map((contentBlock, index) => {
+              return <Block key={index} contentBlock={contentBlock} />;
             })}
           </Grid>
         </Grid>
