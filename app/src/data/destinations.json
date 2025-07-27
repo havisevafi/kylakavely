@@ -10,6 +10,281 @@
     ]
   },
   "destinations": {
+    "0": {
+      "title": "Tietoja kyläkävelystä",
+      "image": "0_lukijalle.jpg",
+      "content":[
+        {
+          "type": "subtitle",
+          "text": "Lukijalle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Havisevan maa- ja kotitalousnaiset on aina ollut vireä yhdistys, joka tuo eri ikäiset jäsenensä yhteen kuukausittain mukavien tuokioiden yhteydessä. Olisiko nytkin ollut kyseessä tällainen syksyinen kokous, kun ulkona vihmoi sade, mutta sisällä tuoksui pulla, kun ajatus ensimmäisestä kyläkävelystä virisi? Maa- ja kotitalousnaisten yksi perimmäisistä ajatuksista on aina ollut edistää oman kylän tuntemusta ja kotipaikkatietoutta. Tämä kun yhdistettiin niihin hienoihin kylän tarinoihin ja vaiheisiin, joita kokouksissa on kuultu, oli perusajatus kyläkävelystä jo muodostunut."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ensimmäinen kyläkävely järjestettiin toukokuussa 2013. Lähtö tapahtui Havisevan rukoushuoneelta ja reittejä oli kaksi: Suinulan urheilukentän kautta Vanhatietä asemalle ja ja koulun kautta takaisin Rukoushuoneelle. Toinen reitti lähti Rukoushuoneelta ja kulki Siitamantien toista puolta Salomaalle asti ja sieltä takaisin. Reittien varrelle oli mielenkiintoisten kohteiden kohdalle pystytetty pistetauluja, joissa oli tietoa paikasta, ihmisistä ja tarinoista.  Kaikki jäsenet olivat osallistuneet tiedon keräämiseen. Olimme jakaneet kohteet keskenämme ja sitten kukin tahoillansa teki työtä kaivamalla esiin vanhoja lehtiä, kirja-artikkeleita ja haastattelemalla ihmisiä. Hyvä lähtökohta oli tietenkin se, että vanhimmat jäsenemme muistivat hyvin kylän paikkoja ja ihmisiä. Tuloksena saimme kasaan merkittävän määrän todella innostavaa perimätietoutta. Pistekylttien lisäksi Rukoushuoneelle oli tuotu vinopino erilaista lisätietoutta, vanhaa esineistöä ja karttoja sekä muutama kylän konkari kertomaan tarinoita."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tämä perimätietous ilmeisesti innosti myös muita kylän asukkaita, sillä kyläkävely oli Havisevan mittapuulla menestys ja ihmiset pyysivät heti siitä uusintaa. Meillä oli kuitenkin takataskussa vielä paljon tietoa paikoista, jotka eivät olleet näillä reiteillä ja niin syttyi innostus puuhata vielä jatkoa kyläkävelylle."
+        },
+        {
+          "type": "paragraph",
+          "text": "Toinen kyläkävely järjestettiin sateisena kevätpäivänä 2015. Reittejä oli jälleen kaksi: ensimmäinen lähti Rukoushuoneelta ja kulki Yli-Nikkiläntietä Havisevan koululle kiertäen sieltä Mäkikylän lenkin. Toinen reitti lähti Toosilanniementien ja Siitamantien tienhaarasta Toosilan kartanolle ja sieltä takaisin. Tästä syystä myös vihkon muutoin kronologinen järjestys hyppää yllättäen Toosilanniementien alkuun."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kyläkävelyä on toistuvasti pyydetty järjestämään uudelleen. Syksyllä 2015 yhdistys järjesti kyläkävelytempauksen Havisevan koulun oppilaille ja se tuntui olevan mielekäs myös pienille, mutta erityisesti koulun henkilökunnalle."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tapahtuman järjestelyt ovat melko suuritöiset näin pienelle yhdistykselle. Emme kuitenkaan halunneet, että kaikki tapahtumia varten koottu perimätieto hautautuisi kylttien mukana jonkun traktoritallin vintille. Niinpä päätimme, että kerätty tieto olisi saatava yksiin kansiin. Sen takia sinulla on nyt tämä vihko käsissäsi. Vihkon puitteissa Havisevan maa- ja kotitalousnaiset vetävät toukokuussa  2016 näillä näkymin viimeisen kyläkävelytempauksensa, jossa kaikki reitit ovat edustettuina."
+        },
+        {
+          "type": "paragraph",
+          "text": "Toivottavasti kaikki lukijat ymmärtävät, että vihko sisältää tietoa, jota on haalittu eri tahoilta, ja suurin osa on tarinoita, joita kylän vanhimmat ovat muistelleet. Tämä ei siis ole virallista tutkimustietoa, eikä siihen pidä niin suhtautuakaan. Pyydämme etukäteen jo anteeksi puuttellisia lähdeviitteitä sekä mahdollisia nimi- ja muita virheitä, joita varmasti esiintyy tekstissä. Tästä huolimatta toivomme, että nautit lukemistasi tarinoista ja ehkä jopa kierrät reitit ja tunnustelet mitä entisaikojen tunnelmasta on jäljellä. Minusta on nykyään valtavan hienoa esimerkiksi kävellä Mäkikylässä ja tietää tarinoita vanhojen paikkojen takana ja aistia menneiden aikojen tuulia. Olen valtavan tyytyväinen siitä, että nyt nämä tarinat ovat yksissä kansissa ja edes murto-osa kylän mahtavista vaiheista on taltioitu myös seuraavien sukupolvien nautittavaksi."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kiitos kaikille jäsenille innostuksesta ja työstä, jota olette jaksaneet tehdä. Erityiskiitos Sari Heliövaaralle, jota ilman meillä ei olisi kaikkia näitä kuvia, ja joka on jaksanut puurtaa tekstien parissa monen monta tuntia kanssani."
+        },
+        {
+          "type": "paragraph",
+          "text": "Havisevalla 20.2.2016"
+        },
+        {
+          "type": "paragraph",
+          "text": "Heidi Antila"
+        },
+        {
+          "type": "subtitle",
+          "text": "Havisevan kylä"
+        },
+        {
+          "type": "paragraph",
+          "text": "Havisevan kylän nimestä on monta erilaista tarinaa. Arvellaan, että kylä olisi ehkä saanut nimensä Uotilan taloa asuneen Havisevan suvun nimestä. Ensimmäiseen Havisevan karttaan vuodelta 1635 kylän nimeksi on merkitty Hawisto. Tämän nimen taas ajatellaan tulleen Haapa-ahteen mäestä, jota reunustivat vanhat haavat. Haapojen tilalla on nykyään Rukoushuone ja mäen nimeksi on muuttunut Rukoushuoneenmäki. Tarinoita liikkuu myös siitä, että nimi tulisi yksinkertaisesti siitä, että Havisevalla on ollut aina paljon haapoja, joiden lehdet havisevat tuulessa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Asutus Havisevalle ja ympäröiviin lähikyliin on syntynyt jo keskiajalla. Kylä oli tiivis ryhmäkylä aina isojakoon asti, joka aloitettiin 15.1.1761. Ennen sitä talot sijaitsivat mäellä, joka nousi Havisevanlahdelta Antilaan päin. Isojaon päätehtävänä oli yhdistää sarkajaon jäljiltä olevat kapeat ja hajanaiset maa-alueet isommiksi lohkoiksi. Vanha ryhmäkyläasutus alkoi Havisevallakin pikkuhiljaa hajota, kun tilan taloja siirrettiin Isojaon seurauksena syntyneille tilan maille. Nyt talolliset saivat myös perustaa torppia saamilleen metsälohkoille. Torpat olivat suosittuja, sillä niistä saatiin ilmaista työvoimaa taloille taksvärkkityön kautta. Näin syntyi myös Havisevan kylän torppa-alue Mäkikylään."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kuten Havisevan kylän nimen, myös monien sen paikannimien taakse kätkeytyy tositapahtumia, arkipäivän asioiden kuvauksia tai tarinoita. Esimerkiksi Itkunkorvenmäkeen (mäki, joka on Vanhatien ja Siitamantien risteyksestä Havisevanlahdelle päin) liittyy kaksi tarinaa. Toisessa matkalainen on hakenut yllättävän rankkasateen suojaa puun alta, salama on iskenyt puuhun ja matkalainen on menehtynyt. Toinen tarina kertoo piiasta joka olisi jättänyt synnyttämänsä lapsen metsään menehtymään, minkä seurauksena voi vieläkin kuulla Itkunkorvenmäen kohdalla lapsen itkun. Itkunkorvenmäen päällä oli lisäksi ”Mutka Mummuksi” kutsuttu paikka, jossa kylän miehet ja lapset kävivät leikkauttamassa hiuksensa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Iso osa tämänkin vihon tarinoista liittyy paikkojen nimiin. Tarinat ovat ehkä unohtumassa, mutta nimet säilyvät ja kantavat mukanaan niiden kaikuja."
+        },
+        {
+          "type": "image",
+          "url": "0_lukijalle_1.jpg",
+          "title": "Havisevan maa- ja kotitalousnaiset, 2016"
+        },
+        {
+          "type": "subtitle",
+          "text": "Lähteet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Aineiston lähteinä on käytetty seuraavia teoksia ja muisteluksia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Seppälä, Väinö V., Suinulan tien mäkiä. Jaakko Jussila (toim.). "
+        },
+        {
+          "type": "paragraph",
+          "text": "Kangasalan joulu -lehdet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Perimätietoa"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kangasalan kirkko ja sen palvelijat 1400-1995, Kangasalan srk, Pentti Hytönen, s.54-56"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kangasalan Joulu, 1986"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kangasalan Palo-suku II"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kangasalan talonpoikaiselämää Palon suvun asuma-alueilta II"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vähittäiskauppiaitten Tampereen piiriliitto 1918 – 1948"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kangasalan Sanomat 1958"
+        },
+        {
+          "type": "paragraph",
+          "text": "Aaro Havia, juhlapuhe 14.8.1977"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pentti Antilan kertomukset (julkaisematon)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tiina Leppänen (omakohtaiset kokemukset)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pentti Antilan kuva-arkisto"
+        },
+        {
+          "type": "paragraph",
+          "text": "Heliövaara Lauri, Opettaja Oskar Fredrik Helin oli laivanrakentaja, laivuri ja sanomalehdentoimittaja. Kangasalan Joulu, 1980."
+        },
+        {
+          "type": "paragraph",
+          "text": "Heliövaara O.K., Laivapojan muistelmia. Kangasalan joulu, 1949."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kirsti Antila muistelukset"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kangasalan talonpoikaiselämää Palon suvun asuma-alueilta osa II, Virtanen N.P. (toim.) 1970"
+        },
+        {
+          "type": "paragraph",
+          "text": "Anna-Maija Heliövaaran arkistot"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kangasalan joulu, 1969"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nissilä, Viljo, Kangasalan Lihasulaa ja Paloa nimestämässsä."
+        },
+        {
+          "type": "paragraph",
+          "text": "Havisevan kylätoimikunnan juhannuslehti 2005"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kirsti Antilan muistelukset"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ismo Antila (omakohtaiset kokemukset)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Selvitys Havisevan kylän maisemallisesti merkittävien kohteiden historiallisesta taustasta, Raine Raitio, 1993"
+        },
+        {
+          "type": "paragraph",
+          "text": "Havisevan kylätoimikunnan juhannuslehti 2007, Marjatta Korhosen (os Koivisto) muistelmat"
+        },
+        {
+          "type": "paragraph",
+          "text": "Havisevan kylätoimikunnan juhannuslehti 2010, Marjatta Korhosen (os Koivisto) muistelmat"
+        },
+        {
+          "type": "paragraph",
+          "text": "Havisevan kylätoimikunnan juhannuslehti, 1994 (Marjatta Korhosen muistelmat)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Suinulan-Havisevan osayleiskaava 1999"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kangasalan rakennusperintö 3, Pyöräretki radan varteen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Havisevan kylätoimikunnan juhannuslehti 1988, Elli Laineen muistelmat"
+        },
+        {
+          "type": "paragraph",
+          "text": "Havisevan kylätoimikunnan juhannuslehti 2000, Marjatta Korhosen (os. Koivisto) muistelmat"
+        },
+        {
+          "type": "paragraph",
+          "text": "Havisevan kylätoimikunnan juhannuslehti 2004, Olavi Koiviston muistelmat"
+        },
+        {
+          "type": "paragraph",
+          "text": "Seppo Pavialan kirjoitus Havisevan kylätoimikunnan juhannuslehdessä 1998"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pirkko Öistämön muistelukset"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kangasalan sanomat 24.6.1960"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alli Antilan muistelukset"
+        },
+        {
+          "type": "paragraph",
+          "text": "Perälä, Aku. Kulki se posti ennenkin. Kangasalan joulu, 1988"
+        },
+        {
+          "type": "paragraph",
+          "text": "Heikki Haralan muistelus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jutikkala Eino ja Nikander Gabriel, Hämäläisiä kartanoja ja suurtiloja. 1946"
+        },
+        {
+          "type": "paragraph",
+          "text": "Längelmäveden seudun historia II, Kangasalan historia II. 1954"
+        },
+        {
+          "type": "paragraph",
+          "text": "Raitio Raine, Kesäpäivä Kangasalla, Entisaikojen Kangasala taiteilijoiden, valokuvaajien ja matkailijoiden silmin, Kangasala-Seura r.y. 1997"
+        },
+        {
+          "type": "paragraph",
+          "text": "Saarenheimo Juhani, Vanhan Pirkkalan historia. Tampere 1974"
+        },
+        {
+          "type": "paragraph",
+          "text": "Suvanto Seppo, Knaapista populiin. Tutkimuksia erilaistumisesta Satakunnan talonpojistossa vuosina 1390-1571. Historiallisia Tutkimuksia 142. Suomen Historiallinen Seura. Vammala 1987"
+        },
+        {
+          "type": "paragraph",
+          "text": "Suvanto Seppo, Vanhan Satakunnan henkilötiedosto 1303–1571"
+        },
+        {
+          "type": "paragraph",
+          "text": "Suuri Maatilakirja V, Hämeen lääni. 1964"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kangasalan Sanomat 29.8.2002"
+        },
+        {
+          "type": "paragraph",
+          "text": "Putkessa -lehti, 3/2007"
+        }
+      ],
+      "location": {
+        "lat": 0,
+        "lon": 0
+      }
+    },
     "16": {
       "title": "16. Piikainsilta",
       "image": "16_piikainsilta.jpg",
