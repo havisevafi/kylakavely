@@ -16,7 +16,7 @@ interface AttractionCardProps {
 export const AttractionCard = ({ id, image, title }: AttractionCardProps) => {
   return (
     <Box component="a" href={useHref(`/${id}`)} className="attraction">
-      <Card elevation={24} className="attraction__card">
+      <Card elevation={16} className="attraction__card">
         <CardMedia
           className="attraction__media"
           image={resolveImagePath(image)}

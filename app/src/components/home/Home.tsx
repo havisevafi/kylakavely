@@ -42,7 +42,7 @@ export const Home = () => {
         sx={{
           paddingTop: '16px',
           paddingLeft: '16px',
-          width: '250px',
+          width: '80%',
           transition: 'transform 0.3s ease, box-shadow 0.3s ease',
           '&:hover': {
             transform: 'translateY(-4px)',
