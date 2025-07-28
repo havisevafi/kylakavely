@@ -285,6 +285,46 @@
         "lon": 0
       }
     },
+    "9": {
+      "title": "9. Havisevan myllyt",
+      "image":"9_havisevan_myllyt.jpg",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Havisevanjärvestä virtaa vettä Myllyojan kautta Vesijärven Havisevanlahteen. Havisevan kylän molemmat myllyt on mainittu jo 1700-luvun asiakirjoissa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Isojaon selvityksessä vuodelta 1797 on maininta vanhasta myllystä, joka sijaitsi Jokipolvessa, Piikainsillan yläpuolella Uotilan ylikäytävän kohdalla, joka taas sijaitsee Havisevan seisakkeen ja Havisevan koulun välissä."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vanhan myllyn yhteydessä on ollut myös saha, mutta se on ilmeisesti purettu 1800-luvun loppuun tultaessa, sillä Isojaon järjestelyissä 1896 vanhan myllyn ja sahan tontti jaettiin talojen kesken. Toinen mylly sijaitsi Ojansuussa, lähellä Havisevanlahtea ja myllyn yhteydessä toimi myös saha."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pietilästä löytyneen vuoden 1887 kokouspöytäkirjan mukaan talolliset päättivät korjata myllyä ja rakentaa myllärille tarpeelliset huoneet."
+        },
+        {
+          "type": "paragraph",
+          "text": "Uutta myllyä varten erotettiin yhteismaa, myllytontti vuonna 1896. Se rakennettiin vanhan myllyn yläpuolelle. Tämä Lahkon mylly toimi vesirattaan avulla. Ojassa oli laudoista rakennettu ruuhi, joka nykyisen Siitamantien Myllysillalta asti kokosi ja ohjasi vettä rattaaseen. Myllyn yläpuolella oli myös saha ja pärehöylä ja myllypirtiltä eroavan Myllytien varressa myllärin asumus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Perimätieto muistaa mylläreistä Palon sukua olleen Kustaa Tuomaanpoika Nikkilän (1823-1881), joka hoiti myllyä vuodesta 1864 lähtien. Myöhempiä mylläreitä olivat Kustaa Helander (s. 1840 Vesilahdella), Antti Andersson (s. 1857 Jokioisissa), joka tuli mylläriksi 1896, mutta muutti Poriin vuonna 1910 sekä Emil Abrahaminpoika Lindborg (s. 1878 Sippolassa), joka tuli mylläriksi 1916 ja siirtyi Kangasalan Tarpilaan vuonna 1923. Heikki Välikoski oli viimeinen mylläri vuodesta 1924 vuoteen 1936, jolloin mylly paloi. Heikki Välikosken aikana mylly sähköistettiin. Myllytontin osti v. 1939 Kalle Mäkinen (s. 1875) asuintilaksi."
+        },
+        {
+          "type": "image",
+          "url": "9_havisevan_myllyt_1.jpg",
+          "title": "Pöytäkirjaote 23.12.1886 Havisevan kylän talollisten kokouksesta, jossa päätettiin uuden yhteisen myllyn rakentamisesta."
+        }
+      ],
+      "location": {
+        "lat": 61.54511493994544,
+        "lon": 24.099459365317017
+      },
+      "next": 16
+    },
     "16": {
       "title": "16. Piikainsilta",
       "image": "16_piikainsilta.jpg",
@@ -311,6 +351,7 @@
         "lat": 61.5511809240321,
         "lon": 24.073590088805197
       },
+      "prev": 9,
       "next": 17
     },
     "17": {
@@ -480,8 +521,36 @@
         "lat": 61.536827,
         "lon": 24.059441
       },
-      "next": 29,
+      "next": 27,
       "prev": 17
+    },
+    "27": {
+      "title": "27. Väikäränmäki",
+      "image": "27_vaikaranmaki.jpg",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Alkuperäinen tie on kulkenut puolivälistä mäkeä Lihasulaan päin muuntajalle, tiessä on ollut siis melkoinen mutka. Siitäköhän Väikäränmäki on saanut nimensä?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vuosisadan alussa mutka oikaistiin nykyiseen paikkaan Siitamantiehen yhtyväksi. Tietä nostettiin 1950-luvun alussa, jolloin rinteestä tuupattiin pillarilla maata notkoon."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lahdenperän ojassa oleva rumpu uusittiin ja mäkeä levitettiin vuonna 1971, jolloin kalliota ammuttiin alhaalta tultaessa oikealta puolelta. Kivistä osa ajettiin Lahdenperän ojan luiskaan ja osa Haralan laituriin. Urakoitsijana toimi Reino Laine. Kauko Kymäläinen ja Timo Harala ajoivat kuorma-autolla ja traktorilla kivet pois. Ampujana oli \"laturi kaupungista\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "1980-1990 -lukujen taitteessa mäen päällystä madallettiin ainakin metri, jolloin kiveä ammuttiin melko paljon. Silloin urakoitsijana toimi Soraset Oy Kangasalta. Tuolloin laitettiin myös kaiteet Lahdenperän ojan kohdalle."
+        }
+      ],
+      "location":{
+        "lat": 61.54173346187032,
+        "lon": 24.08413096981537
+      },
+      "prev": 26,
+      "next": 29
     },
     "29": {
       "title": "29. Haralanharjun näkötorni",

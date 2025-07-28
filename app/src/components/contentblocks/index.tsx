@@ -11,7 +11,6 @@ import Typography from '@mui/material/Typography';
 import './index.scss';
 
 export const Image = ({ contentBlock }: { contentBlock: ImageBlock }) => {
-  console.log('rendering image', contentBlock);
   return (
     <Box className="contentblock-image">
       <img
