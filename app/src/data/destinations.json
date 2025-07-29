@@ -13,7 +13,7 @@
     "0": {
       "title": "Tietoja kyläkävelystä",
       "image": "0_lukijalle.jpg",
-      "content":[
+      "content": [
         {
           "type": "subtitle",
           "text": "Lukijalle"
@@ -287,7 +287,7 @@
     },
     "9": {
       "title": "9. Havisevan myllyt",
-      "image":"9_havisevan_myllyt.jpg",
+      "image": "9_havisevan_myllyt.jpg",
       "content": [
         {
           "type": "paragraph",
@@ -394,8 +394,125 @@
         "lat": 61.545151667979766,
         "lon": 24.071178357144277
       },
-      "next": 26,
+      "next": 19,
       "prev": 16
+    },
+    "19": {
+      "title": "19. Saalemin rukoushuone",
+      "image": "19_saalemin_rukoushuone.jpg",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Saalem-seurakunnan rakennus valmistui vuonna 1952, vuosiluvun voi nähdä valettuna sementtirappusiin. Rakennuksen yläkerrassa sijaitsi myös asuinhuoneisto. Rakennuttajana toimi Jääskeläinen. Piirustukset laati Leo Puulaja rakennus tehtiin suurimmaksi osaksi talkootyönä."
+        },
+        {
+          "type": "paragraph",
+          "text": "Saalem-seurakunnalla oli ollut toimintaa jo aiemmin läheisissä rakennuksissa. Uuden talon valmistuttua siellä järjestettiin myös kerho- ja pyhäkoulutoimintaa kaikille kylän lapsille"
+        },
+        {
+          "type": "paragraph",
+          "text": "Samoilla piirustuksilla rakennettiin myös Toijalaan helluntaiseurakunnan rukoushuone."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nykyisin rakennus on yksityiskäytössä."
+        }
+      ],
+      "location": {
+        "lat": 61.54547231998499,
+        "lon": 24.06097903513272
+      },
+      "next": 22,
+      "prev": 17
+    },
+    "22": {
+      "title": "22. Kangasalan Osuuskauppa, Suinulan sivumyymälä",
+      "image": "22_kangasalan_osuuskauppa_suinula.jpg",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Kangasalan Osuuskaupalla oli aikoinaan kolme sivumyymälää: Suinulassa, Lihasulassa ja Raikussa. Osuuskaupan Suinulan sivumyymälä aloitti toimintansa 1920-luvun tienoilla ja palveli aina 1980-luvun puoliväliin saakka. Suinulan sivumyymälä oli merkittävä ja monipuolinen kauppaliike palvellen laajalti kylän asukkaita. Se oli kylällä toimineista kaupoista viimeinen. Osuuskaupan palveluihin kuului ostosten kotiinkuljetus sekä kauppa-auto. Kauppiaina toimivat Poutanen “Suezi”, Hautamäki, Leponiemi, Kehus ja Huuhtanen.Viimeisin kauppiaspariskunta oli Reino ja Kaija Alin."
+        },
+        {
+          "type": "paragraph",
+          "text": "Maitoa tuotiin aamuisin hevosella Haralasta asemalle, josta aamujunalla maito lähti Tampereelle Valion meijeriin. Se oli aikaista hommaa: asemalla täytyi olla rahtikirjojen tekoa varten noin 20 minuuttia ennen klo 6.50 junan tuloa (ja lehmäthän oli jo sitä ennen lypsetty niin, että maito oli tuoretta, joten silloin ei aamuisin paljoa nukuttu). Osa maidosta, eli yksi tonkka, oli jo jätetty Talouskauppaan myytäväksi ennen asemalle menoa."
+        },
+        {
+          "type": "image",
+          "url": "22_kangasalan_osuuskauppa_suinula_1.jpg",
+          "title": "Kauppiaspariskunta Matti ja Pirkko Kehus sekä Rakel Leinonen, Kepro Laine ja Sirkka Högman"
+        },
+        {
+          "type": "subtitle",
+          "text": "Suezi"
+        },
+        {
+          "type": "paragraph",
+          "text": "Osuuskaupan myymälänhoitajana oli aikanaan erikoinen mies \"Suezi\". Hän oli ensimmäisiä rauhanturvaajia ja ilmeisesti siitä tämä nimityskin \"Suezi\" tuli. Hän oli iso raavas mies, joka pystyi ottamaan kevyesti apulantasäkin molempiin kainaloihinsa ja kantamaan asiakkaalle, sekä hyvin toimelias."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kerran poikajoukko oli tullut rähinöimään osuuskaupan pihalle. Suezi meni ovelle ja katsoi mistä meteli johtui. Hän otti yhden pojan jaloista kiinni, nosti ylös pojan ollessa pää alaspäin ja kastoi lumihankeen. Siitäkös muu poikajoukko pelästyi ja lähti karkuun, eikä varmaan enää toiste häiriköintiä ollut!"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hän hoiti hyvin työnsä palvellen asiakkkaitaan. Kerrotaan, että jos jotain tavaraa myymälässä ei ollut niin Suezi sanoi : \"ei ole, mutta huomenna on\". Hän meni autollaan hakemaan kaupungista tai jostain muualta tarvittavaa tavaraa ja asiakas sai mitä halusi."
+        },
+        {
+          "type": "paragraph",
+          "text": "Näin Suinulan Osuuskaupan myynti meni ohi kirkonkylän päämyymälän ja semmoinenhan ei osuuskunnan toimintaan sopinut: toimelias myymämälänhoitaja irtisanottiin. Suezi lähtii Poriin, perusti oman myymälän sinne ja menestys jatkui."
+        }
+      ],
+      "location": {
+        "lat": 61.54205202804205,
+        "lon": 24.05651318817105
+      },
+      "next": 23,
+      "prev": 19
+    },
+    "23": {
+      "title": "23. Talouskauppa",
+      "image": "23_talouskauppa.jpg",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Talouskauppa sijaitsi ensin Osuuskauppaa vastapäätä, kunnes siirtyi ylemmäs mäen päälle. Talouskauppa toimi 1940-luvulta 1980-luvun alkuun asti. Pihassa oli myös kioski, jossa myytiin myös bensaa. Kauppiaina toimivat Aili Mäkinen, Kairesalo, Kotiranta, Mäkinen, Salminen, Anttila ja Ritva Laakso."
+        },
+        {
+          "type": "paragraph",
+          "text": "Aseman seudulla oli paljon myös muita palveluita: Väliahon Urho teki luutia Laurion lähellä olevassa pienessä punaisessa mökissä (pieni verstas myös Alisa Salmijärven talon pohjoispäässä), Suinulan baari nimeltään Tervahovi toimi asemalla noin vuosina 1967-1968, Raudan Jale piti Suinulan pajaa ja aseman alueella toimi myös hammaslääkäri."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ennen muinoin Nikkilässä sijainnut kievari siirtyi asemalle Osuuskauppaa vastapäätä. Se toimi myös “taksina” sekä toimitti asemalle tulleita tavaroita. Alakerrassa toimi kievarin jälkeen Saaren Martan kioski noin vuosina 1960-1961. Talo purettiin 1960-luvun alussa."
+        }
+      ],
+      "location": {
+        "lat": 61.54166437282292,
+        "lon": 24.056795727636818
+      },
+      "next": 24,
+      "prev": 22
+    },
+    "24": {
+      "title": "24. Puhelinkeskus",
+      "image": "24_puhelinkeskus.jpg",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ensimmäisenä puhelinkeskuksen hoitajana toimi muutaman vuoden ajan Alma Nikkilä äitinsä kanssa. Vuonna 1922 keskuksen hoitajaksi tuli Matilda Leino ja vuonna 1945 hänen tyttärensä Kaarina Silius. Keskuksen hoitajat asuivat rakennuksessa, sillä työ oli ympärivuorokautista. Kaarina Silius kertoo työstään Kangasalan sanomissa 24.6. 1960: “Enimmillään puhelintilaajia oli 57 kappaletta. Puheluita tuli aluksi harvaan, mutta vuosi vuodelta on ollut kiireisempää. Viime vuosina on ollut niin kiirettä, että keskuspöydän ääressä on pitänyt istua aamusta iltaan. Postineiti päästi minut aina aamuisin kauppaan. Nyt, kun keskus on muuttunut automaattiseksi ja viimeinen Kangasalan käsikäyttöinen keskuspöytä on luokiteltu romujen joukkoon, on tässä huoneessa nyt hiljaista.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vuonna 1960 Suinulan puhelinosuuskunta lakkautettiin ja rakennus siirtyi yksityiskäyttöön."
+        }
+      ],
+      "location": {
+        "lat": 61.54130605241151,
+        "lon": 24.057197883249152
+      },
+      "next": 26,
+      "prev": 23
     },
     "26": {
       "title": "26. Suinulan urheilukenttä",
@@ -545,7 +662,7 @@
           "text": "1980-1990 -lukujen taitteessa mäen päällystä madallettiin ainakin metri, jolloin kiveä ammuttiin melko paljon. Silloin urakoitsijana toimi Soraset Oy Kangasalta. Tuolloin laitettiin myös kaiteet Lahdenperän ojan kohdalle."
         }
       ],
-      "location":{
+      "location": {
         "lat": 61.54173346187032,
         "lon": 24.08413096981537
       },
