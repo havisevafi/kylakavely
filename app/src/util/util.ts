@@ -24,12 +24,24 @@ export const haversineDistanceKm = (
   return R * c; // Distance in km
 };
 
-export const getGeoLocation = (
+export const getGeoLocation = async (
   onSuccess: PositionCallback,
   onError: PositionErrorCallback,
 ) => {
-  if (navigator?.geolocation) {
+  const canLocate = await isGeoLocationAllowed();
+  if (navigator?.geolocation && canLocate) {
     navigator.geolocation.getCurrentPosition(onSuccess, onError);
+  }
+};
+
+export const isGeoLocationAllowed = async () => {
+  if (!navigator.permissions) return false;
+
+  try {
+    const status = await navigator.permissions.query({ name: 'geolocation' });
+    return status.state === 'granted';
+  } catch {
+    return false;
   }
 };
 

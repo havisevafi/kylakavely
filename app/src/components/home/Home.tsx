@@ -30,8 +30,8 @@ export const Home = () => {
     alert(err); // TOOD:
   };
 
-  const onLocate = () => {
-    getGeoLocation(onLocateSuccess, onLocateError);
+  const onLocate = async () => {
+    await getGeoLocation(onLocateSuccess, onLocateError);
   };
 
   const attractions = Object.entries(destinations).map(([id, data]) => {
