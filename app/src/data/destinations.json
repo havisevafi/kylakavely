@@ -424,6 +424,95 @@
         "lon": 24.09945936
       },
       "prev": 3,
+      "next": 12
+    },
+    "12": {
+      "title": "12. Antila",
+      "image": "12_antila.jpg",
+      "validUntil": "2025-10-19",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Antilan talo mainitaan historiankirjoissa jo 1500-luvulta lähtien nimillä Anttila, Andila ja Antila. Nykyisen Antilan suvun haltuun talo tuli 1879, jolloin Juho Antila osti sen. Talossa on ollut isäntinä Juhon jälkeen Kalle ja Ismo Antila sekä nykyisenä isäntänä Martti Antila."
+        },
+        {
+          "type": "paragraph",
+          "text": "Isojaossa ja isojaon täydennyksessä 1761-1899 Antilan talo oli ainoa, joka säilyi paikoillaan. Punainen päärakennus on 1800-luvun alusta, valkoinen asumaton päärakennus 1800-luvun lopulta ja pääaitat 1700-luvulta."
+        },
+        {
+          "type": "paragraph",
+          "text": "Havisevan koulun toiminta alkoi v. 1898 Antilan talossa. 1920-luvulla Antilan punaisen pytingin kuistin pitkälle pöydälle tuotiin postinippu, josta kyläläiset hakivat postinsa. Taloille saatiin omat postilaatikot 1930-luvulla."
+        },
+        {
+          "type": "paragraph",
+          "text": "Antila oli karjatila vuoteen 1965 saakka, jonka jälkeen se on toiminut viljanviljelytilana."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nykyisen kuivurin paikalla ollut kivinavetta tuhoutui tulipalossa 1976."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sotamies Humppilan kaalimaa oli nykyisen isännän Martti Antilan talon paikalla."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sota-aikana Antilan leivintuvassa leivottiin leipää rintamalle. Kylän naisille oli jaettu leivontavuorot. Reikäleivät kuivattiin orsilla ja pakattiin pahvilaatikoihin, jotka vietiin asemalle rintamalle lähetettäviksi. Tätä toimintaa luultavasti organisoi Lotta Svärd yhdistys."
+        },
+        {
+          "type": "image",
+          "url": "12_antila_1.jpg",
+          "title": ""
+        }
+      ],
+      "location": {
+        "lat": 61.545552251837776,
+        "lon": 24.08997424192969
+      },
+      "prev": 9,
+      "next": 14
+    },
+    "14": {
+      "title": "14. Kallionpää",
+      "image": "14_kallionpaa.jpg",
+      "validUntil": "2040-12-31",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Lahtisen mäkitupalaispiha on tiettävästi Kangasalan ainoa kokonaisena säilynyt mäkitupalaispihapiiri. Tilan lunasti itsenäiseksi Antilasta mäkitupalainen Kalle Lahtinen vuonna 1919. Talon oli rakentanut vuosien 1906-07 vaiheilla hänen veljensä Janne Lahtinen."
+        },
+        {
+          "type": "paragraph",
+          "text": "1940-luvun alkupuolella talossa asuin myös Kalle Lahtisen vaimon Hilman sisar Linda, joka oli suutari. Tuohon aikaan kylällä toimi kaksi suutaria, sillä myös Vilho Hakala oli suutari. Hilma ja Kalle Lahtisen jälkeen taloa asui heidän tyttärensä Eeva Lahtinen. Lahtisen kuoltua tila meni Suomen Lähetysseuralle, jolta nykyinen omistaja Raija Paavola sen osti vuonna 1996."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pihapiirissä on jäljellä päärakennuksen lisäksi aitta, talli, navetta, sauna, lato ja perunakuoppa. Tontilta on purettu vanha päärakennus,  pieni puuliiteri ja lato. Osa pihasta on entistä peltoa, jota viljeltiin viimeksi 1980-luvun lopussa. Muuta aluetta on laidunnettu vuosikymmeniä, viimeksi 1980-luvulla, jonka jälkeen alueelta on ajoittain niitetty heinää."
+        },
+        {
+          "type": "paragraph",
+          "text": "Luonnonsuojeluliiton ketoprojekti hoiti pihaa talkoovoimin kesällä 1995, jonka jälkeen kunta niitti aluetta muutamana kesänä.  Ainakin vielä 1990-luvun lopulla pihaniityllä sinnittelivät päivänkakkara, särmäkuisma, ketoneilikka, kissankello ja matarat."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tuomas Nikkilä muistelee Kalle ja Hilma Lahtisen kyläreissua naapuriin Jalmari Koiviston luokse. Hyvin rauhalisena miehenä tunnettu Kalle tokaisi Jalmarille, että koskaan hänellä ei ole ollut niin kiire, että olisi tarvinut juoksuksi pistää. Iltayöstä, vieraiden jo lähdettyä, Jalmarin vaimo herätteli miestään, sillä ovelta oli alkanut kuulua kolinaa. Oven takaa löytyi Kalle jonka omatunto oli alkanut kolkuttaa kyläilyn jälkeen. Hän tunnusti: “Kuule Jalmari, minä valehtelin sinulle. Juoksin minä silloin, kun meidän sauna paloi.”"
+        },
+        {
+          "type": "image",
+          "url": "14_kallionpaa_1.jpg",
+          "title": ""
+        },
+        {
+          "type": "image",
+          "url": "14_kallionpaa_2.jpg",
+          "title": ""
+        }
+      ],
+      "location": {
+        "lat": 61.54629599239978,
+        "lon": 24.08529067490449
+      },
+      "prev": 12,
       "next": 15
     },
     "15": {
@@ -466,7 +555,7 @@
         "lat": 61.546377,
         "lon": 24.084693
       },
-      "prev": 9,
+      "prev": 14,
       "next": 16
     },
     "16": {
