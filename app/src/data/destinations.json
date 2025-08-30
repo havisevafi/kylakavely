@@ -13,6 +13,7 @@
     "0": {
       "title": "Tietoja kyläkävelystä",
       "image": "0_lukijalle.jpg",
+      "validUntil": "2040-12-31",
       "content": [
         {
           "type": "subtitle",
@@ -288,6 +289,7 @@
     "3": {
       "title": "3. Antilan kauppa",
       "image": "3_antilakauppa.jpg",
+      "validUntil": "2040-12-31",
       "content": [
         {
           "type": "paragraph",
@@ -385,6 +387,7 @@
     "9": {
       "title": "9. Havisevan myllyt",
       "image": "9_havisevan_myllyt.jpg",
+      "validUntil": "2040-12-31",
       "content": [
         {
           "type": "paragraph",
@@ -426,6 +429,7 @@
     "15": {
       "title": "15. Mäkitupalaiset",
       "image": "15_makitupalaiset.jpg",
+      "validUntil": "2040-12-31",
       "content": [
         {
           "type": "paragraph",
@@ -468,6 +472,7 @@
     "16": {
       "title": "16. Piikainsilta",
       "image": "16_piikainsilta.jpg",
+      "validUntil": "2040-12-31",
       "content": [
         {
           "type": "paragraph",
@@ -497,6 +502,7 @@
     "17": {
       "title": "17. Havisevan koulu",
       "image": "17_havisevan_koulu.jpg",
+      "validUntil": "2040-12-31",
       "content": [
         {
           "type": "paragraph",
@@ -540,6 +546,7 @@
     "19": {
       "title": "19. Saalemin rukoushuone",
       "image": "19_saalemin_rukoushuone.jpg",
+      "validUntil": "2040-12-31",
       "content": [
         {
           "type": "paragraph",
@@ -568,6 +575,7 @@
     "22": {
       "title": "22. Kangasalan Osuuskauppa, Suinulan sivumyymälä",
       "image": "22_kangasalan_osuuskauppa_suinula.jpg",
+      "validUntil": "2040-12-31",
       "content": [
         {
           "type": "paragraph",
@@ -613,6 +621,7 @@
     "23": {
       "title": "23. Talouskauppa",
       "image": "23_talouskauppa.jpg",
+      "validUntil": "2040-12-31",
       "content": [
         {
           "type": "paragraph",
@@ -637,6 +646,7 @@
     "24": {
       "title": "24. Puhelinkeskus",
       "image": "24_puhelinkeskus.jpg",
+      "validUntil": "2040-12-31",
       "content": [
         {
           "type": "paragraph",
@@ -657,6 +667,7 @@
     "26": {
       "title": "26. Suinulan urheilukenttä",
       "image": "26_suinulan_urheilukentta.jpg",
+      "validUntil": "2040-12-31",
       "content": [
         {
           "type": "paragraph",
@@ -784,6 +795,7 @@
     "27": {
       "title": "27. Väikäränmäki",
       "image": "27_vaikaranmaki.jpg",
+      "validUntil": "2040-12-31",
       "content": [
         {
           "type": "paragraph",
@@ -812,6 +824,7 @@
     "29": {
       "title": "29. Haralanharjun näkötorni",
       "image": "29_haralanharjun_nakotorni.jpg",
+      "validUntil": "2040-12-31",
       "content": [
         {
           "type": "paragraph",
@@ -870,6 +883,7 @@
     "32": {
       "title": "32. Lapinsaari",
       "image": "32_lapinsaari.jpg",
+      "validUntil": "2040-12-31",
       "content": [
         {
           "type": "paragraph",
