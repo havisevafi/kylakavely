@@ -470,6 +470,27 @@
         "lon": 24.08997424192969
       },
       "prev": 9,
+      "next": 13
+    },
+    "13": {
+      "title": "13. Jokiranta (Lepokoti)",
+      "image": "13_jokiranta.jpg",
+      "validUntil": "2025-10-19",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mäkikyläntie 42:ssa sijaitsevan talon ovat omistaneet ja rakentaneet Eino ja Martta Kairi 1920-luvun alussa. Myöhemmin talo on ollut vapaakirkon (Helluntaikerho) omistuksessa noin 1920-1940-luvuilla. Talo toimi tällöin vapaakirkon naisyhdistyksen lähetystyöntekijöiden lepokotina. Siellä kävivät kylän lapset myös pyhäkoulussa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sota-aikana talossa piti rippikoululeirejä vapaakirkon pastori Rimmi. Hänen vaimonsa piti tyttökerhoa ja Laineen Pekka seurakunnan poikakerhoa.\nHeidän jälkeensä talossa on asunut rautatievirkailija Hännikäinen noin vuodesta 1945 ja hänen jälkeensä Lieskorvet."
+        }
+      ],
+      "location": {
+        "lat": 61.545834971747375,
+        "lon": 24.08764479821062
+      },
+      "prev": 12,
       "next": 14
     },
     "14": {
@@ -512,7 +533,7 @@
         "lat": 61.54629599239978,
         "lon": 24.08529067490449
       },
-      "prev": 12,
+      "prev": 13,
       "next": 15
     },
     "15": {
