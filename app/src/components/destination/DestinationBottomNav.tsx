@@ -33,15 +33,15 @@ export const DestinationBottomNav = ({
     >
       <BottomNavigation showLabels onChange={onChange}>
         <BottomNavigationAction
-          label={prev ? 'Edellinen' : ''}
+          label={prev !== undefined ? 'Edellinen' : ''}
           value={prev}
-          disabled={!prev}
+          disabled={prev === undefined}
         />
         <BottomNavigationAction label="Pääsivu" value="" />
         <BottomNavigationAction
-          label={next ? 'Seuraava' : ''}
+          label={next !== undefined ? 'Seuraava' : ''}
           value={next}
-          disabled={!next}
+          disabled={next === undefined}
         />
       </BottomNavigation>
     </Paper>

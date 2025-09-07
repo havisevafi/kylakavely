@@ -32,6 +32,7 @@ export interface DestinationPage extends PageBase {
   location: DestinationLocation;
   prev?: number;
   next?: number;
+  validUntil?: string;
 }
 
 interface Destinations {

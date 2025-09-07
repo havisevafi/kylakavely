@@ -284,7 +284,8 @@
       "location": {
         "lat": 0,
         "lon": 0
-      }
+      },
+      "next": 3
     },
     "3": {
       "title": "3. Antilan kauppa",
@@ -382,6 +383,7 @@
         "lat": 61.543509,
         "lon": 24.091955
       },
+      "prev": 0,
       "next": 9
     },
     "9": {
