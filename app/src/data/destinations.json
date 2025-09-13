@@ -384,6 +384,43 @@
         "lon": 24.091955
       },
       "prev": 0,
+      "next": 7
+    },
+    "7": {
+      "title": "7. Pietilä",
+      "image": "7_pietila.jpg",
+      "validUntil": "2025-10-19",
+      "content":  [
+        {
+          "type": "paragraph",
+          "text": "Vuonna 1552 perustettu Pietilä on yksi kylän kuudesta kantatalosta Antilan, Haralan, Nikkilän, Paavolan ja Uotilan lisäksi. Tila on saanut nimensä Pieti-nimisestä omistajasta. 1700-luvulla tila oli pääministeri Paavo Lipposen äidin suvun omistuksessa. Suvun ensimmäisen isäntä Pietilässä oli tilan 1600-luvun lopulla ostanut Erik Juhonpoika Humalainen."
+        },
+        {
+          "type": "paragraph",
+          "text": "Viimeinen Pietilä-niminen isäntä talossa oli 1882 talon perinyt Henrik (Heikki) Aleksanterinpoika Pietilä. \"Liian iloista ja paheellista\" elämää viettänyt vanhapoika määrättiin vuonna 1900 holhoukseen. Keisarillinen Turun hovioikeus vahvisti holhoojaksi sanomalehden toimittaja, maisteri Atte Törnqvistin."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tila myytiin samana vuonna julkisessa huutokaupassa tamperelaisille Ano ja Ella Caseliukselle. Kauppahinta maksettiin holhooja Törnqvistille ja myös osan kauppahinnasta kattanut velkakirja kirjoitettiin hänen hyväkseen. On epäselvää, saiko Heikki Pietilä lopulta  kauppahinnasta mitään."
+        },
+        {
+          "type": "paragraph",
+          "text": "Caseliukset rakensivat nykyisen päärakennuksen kesänviettopaikakseen vuonna 1902, navetta on vuodelta 1935. Vanha päärakennus ja navetta sijaitsivat maantien ja pihatien välisessä kolmiossa päädyt maantielle päin."
+        },
+        {
+          "type": "paragraph",
+          "text": "Alunperin yli 500 hehtaaria maata käsittänyt Pietilä oli pienentynyt noin sadan hehtaarin kokoiseksi siihen mennessä, kun se siirtyi nykyiselle omistajasuvulle 100 vuotta sitten. Kaarle (Kalle) ja Fanny Markkula Teiskosta ostivat tilan vuonna 1912."
+        },
+        {
+          "type": "paragraph",
+          "text": "Maanviljelyksestä ja karjasta tilalla luovuttiin heidän poikansa Viljo Markkulan ja vaimonsa Ailin aikana 1970-luvun alussa, jolloin pellot myytiin naapuriin Ismo Antilalle. Vuonna 1982 taloon muutti vanhin tytär Anna-Maija Heliövaara (o.s. Markkula) perheineen."
+        }
+      ],
+      "location": {
+        "lat": 0,
+        "lon": 0
+      },
+      "prev": 3,
       "next": 9
     },
     "9": {
@@ -425,7 +462,88 @@
         "lat": 61.54511493,
         "lon": 24.09945936
       },
-      "prev": 3,
+      "prev": 7,
+      "next": 10
+    },
+    "10": {
+      "title": "10. Paavolan tila",
+      "image": "10_paavolan_tila.jpg",
+      "validUntil": "2025-10-19",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Paavolan tilalla asui Suomen sodan aikana (v. 1808-1809) asui kruununvouti. Jokaisessa kihlakunnassa oli siihen aikaan kruununvouti, joka vastasi veronkannosta, järjestyksen ylläpitämisestä ja yleisestä hallinnosta. Paavola on toiminut ikään kuin kruununvoutien virkatalona, vaikka se ei perintönä kulkenutkaan kruununvoudilta toiselle, vaan seuraava virkaan astuja osti sen aina edeltäjältänsä. Sitä, koska Paavola on rakennettu tai sitä on asettunut ensimmäinen kruununvouti asuttamaan, eivät tarinat kerro."
+        },
+        {
+          "type": "paragraph",
+          "text": "Paavolan toinen talo oli matala, kapea ja vanhanaikainen rakennus, jossa asuivat väki ja naiset. Toisessa rakennuksessa, jonka pääty oli järvelle päin, sijaitsi kruununvoudin varsinainen virkahuone sekä esimerkiksi vierashuoneita kruununvoudin miespuolisia vieraita varten. Paavola on ilmeisesti purettu 1900-luvun alussa ja osa hirsistä on käytetty Toosilan laajennukseen ja osa Perälän taloon."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kruununvouteina Paavolassa ovat toimineet ainakin nimineuvos Carl Juhan Nordberg, joka osti tilan 3.9.1818 ja kollegioasessori Gustaf Adolf Lindström, joka osti tilan Nordbergin jälkeen 7.8.1835."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vuonna 1900, 4. heinäkuuta tilan huusi Juho Kustaa Perälä. Tämän jälkeen se on myyty osaksi Pietilää. Vuonna 1974 Ismo Antila on ostanut maat itselleen. Nykyisin entisen Paavolan tilan kohdalla on Teppo ja Tuomo Antilan talo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kruunuvouti Lindströmistä kerrotaan, että hän oli äkäinen äijänkäppyrä, mutta kuulemma niin tunnollinen ja tarkka, että pelasti Havisevan kylän suurelta metsäpalolta käskemällä ripeästi taloista sammuttajat metsään. (Kruununvouti Lindströmistä kertovan artikkelin voi lukea Rukoushuoneella)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Paavolan omistajat 1600-luvun lopulta vuoteen 1900:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1691 \tPitäjänkirjuri Erkki Juhonpoika Humalainen"
+        },
+        {
+          "type": "paragraph",
+          "text": "1722 \tPojanpoika Matti Kristerinpoika Humalainen"
+        },
+        {
+          "type": "paragraph",
+          "text": "1747\tHeikki Matinpoika Paavola. Tila halotaan vuonna 1758 Paavolaksi ja Peräläksi"
+        },
+        {
+          "type": "paragraph",
+          "text": "1774\tHeikki Heikinpoika Paavola"
+        },
+        {
+          "type": "paragraph",
+          "text": "1795 \tTila jaetaan perinnönjaossa: 1/3 osa Heikki Heikinpoika Paavola, 1/3 Simo heikinpoika Paavola ja 1/3 osa leski Saara \tJuhontytär Paavola."
+        },
+        {
+          "type": "paragraph",
+          "text": "1816 \tSimo Heikinpoika Paavola"
+        },
+        {
+          "type": "paragraph",
+          "text": "1818\tKruununvouti Nordberg"
+        },
+        {
+          "type": "paragraph",
+          "text": "1835\tKruununvouti Lindström"
+        },
+        {
+          "type": "paragraph",
+          "text": "1870\tEmanuel Antinpoika Pietilä"
+        },
+        {
+          "type": "paragraph",
+          "text": "1882\tPoikapuoli Heikki Aleksanteri Aleksanterinpoika Pietilä"
+        },
+        {
+          "type": "paragraph",
+          "text": "1900\tJuho Kustaa Perälä"
+        }
+      ],
+      "location": {
+        "lat": 0,
+        "lon": 0
+      },
+      "prev": 9,
       "next": 12
     },
     "12": {
@@ -931,6 +1049,38 @@
         "lon": 24.08413096981537
       },
       "prev": 26,
+      "next": 28
+    },
+    "28": {
+      "title": "28. Uotila",
+      "image": "28_uotila.jpg",
+      "validUntil": "2025-10-19",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Uotilan, eli kantatilan numero 5, ensimmäinen tunnettu omistaja oli Ions 1540-luvulla. Vuonna 1565 talon omisti  Jöns Olsson, jonka mukaan talo on saanut nimensä.\n1800-luvulla omistajat vaihtuivat tiheään ja Uotila oli Kustaa Juhonpojan, Heikki Kustaanpoika Markkulan, Kalle Tavelan Ja Kaarlo Törnqvistin omistuksessa.\n1900-luvulla Uotilan omistajiin kuuluivat Kaarlo Karimaa, Kustaa Lintula ja Matti Pirilä.\n1920-luvun alussa Pirilä myi viljelys- ja metsämaat Haralan isännälle Kustaa Kustaanpojalle sekä rakennukset tontteineen opettaja Reijo Talvenheimolle, joka nimesi paikkansa Heimolaksi. Tähän päättyi Uotilan tilan tarina.\nHeimola on ollut asuinkäytössä siitä lähtien. Tämän lisäksi Suomen Kalastusväline Oy toimi siinä vuodesta 1949 1970-luvun alkuun."
+        },
+        {
+          "type": "image",
+          "url": "28_uotila_1.jpg",
+          "title": "Uotilan vanhaa pihapiiriä"
+        },
+        {
+          "type": "image",
+          "url": "28_uotila_2.jpg",
+          "title": "Hahmotelma Uotilan tilan rakennuksista"
+        },
+        {
+          "type": "image",
+          "url": "28_uotila_3.jpg",
+          "title": "Uotilan vanha rakennus"
+        }
+      ],
+      "location": {
+        "lat": 0,
+        "lon": 0
+      },
+      "prev": 27,
       "next": 29
     },
     "29": {
