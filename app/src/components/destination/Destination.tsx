@@ -3,7 +3,8 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import { useEffect } from 'react';
-import { useParams, useRouteLoaderData } from 'react-router';
+import { useNavigate, useParams, useRouteLoaderData } from 'react-router';
+import { useSwipeable } from 'react-swipeable';
 import type { DestinationsData } from '../../data';
 import { resolveImagePath } from '../../util/util.js';
 import { Block } from '../contentblocks';
@@ -17,6 +18,20 @@ export const Destination = () => {
     'destinations',
   ) as DestinationsData;
   const destination = destinations[id];
+  const navigate = useNavigate();
+
+  const handlers = useSwipeable({
+    onSwipedLeft: () => {
+      if (destination.next) {
+        navigate(`/${destination.next}`);
+      }
+    },
+    onSwipedRight: () => {
+      if (destination.prev) {
+        navigate(`/${destination.prev}`);
+      }
+    },
+  });
 
   useEffect(() => {
     // In PWA mode moving to next destination keeps the scrolled location at
@@ -28,6 +43,7 @@ export const Destination = () => {
   return (
     <>
       <Container
+        {...handlers}
         maxWidth="md"
         title={destination.title}
         className="destination"
