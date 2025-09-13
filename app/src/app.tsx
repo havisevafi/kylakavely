@@ -1,13 +1,20 @@
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { createHashRouter, RouterProvider } from 'react-router';
+import {
+  createHashRouter,
+  Outlet,
+  RouterProvider,
+  useLocation,
+} from 'react-router';
+import { PageTransitionWrapper } from './components/animate/PageTransitionWrapper';
 import { Destination } from './components/destination/Destination';
 import { ErrorPage } from './components/errorpage/ErrorPage';
 import { Home } from './components/home/Home.jsx';
+import { Destinations, DestinationsData } from './data';
 import { appTheme } from './theme.js';
 
-import { Destinations, DestinationsData } from './data';
+import { DirectionProvider } from './components/animate/DirectionContext';
 import mockDestinations from './data/destinations.json' with { type: 'json' };
 
 const destinationsLoader = () => {
@@ -58,11 +65,25 @@ const destinationsLoader = () => {
   return destinationsData;
 };
 
+const Layout = () => {
+  const location = useLocation();
+
+  return (
+    <div className="relative w-full h-full overflow-hidden">
+      <PageTransitionWrapper>
+        {/* Outlet renders child routes (Home or Destination) */}
+        <Outlet key={location.pathname} />
+      </PageTransitionWrapper>
+    </div>
+  );
+};
+
 const router = createHashRouter([
   {
     id: 'destinations',
     path: '/',
     loader: destinationsLoader,
+    element: <Layout />,
     errorElement: <ErrorPage />,
     children: [
       {
@@ -70,7 +91,7 @@ const router = createHashRouter([
         element: <Home />,
       },
       {
-        path: '/:id',
+        path: ':id',
         element: <Destination />,
       },
     ],
@@ -81,7 +102,9 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ThemeProvider theme={appTheme}>
       <CssBaseline />
-      <RouterProvider router={router} />
+      <DirectionProvider>
+        <RouterProvider router={router} />
+      </DirectionProvider>
     </ThemeProvider>
   </StrictMode>,
 );

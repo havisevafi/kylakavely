@@ -5,45 +5,22 @@ import Typography from '@mui/material/Typography';
 import { useEffect } from 'react';
 import { useNavigate, useParams, useRouteLoaderData } from 'react-router';
 import { useSwipeable } from 'react-swipeable';
-import type { DestinationsData } from '../../data';
+import type { DestinationPage, DestinationsData } from '../../data';
 import { resolveImagePath } from '../../util/util.js';
+import { useDirection } from '../animate/DirectionContext';
 import { Block } from '../contentblocks';
 import { DestinationBottomNav } from './DestinationBottomNav.jsx';
 
 import './Destination.scss';
 
-export const Destination = () => {
-  const { id } = useParams() as { id: string };
-  const { destinations } = useRouteLoaderData(
-    'destinations',
-  ) as DestinationsData;
-  const destination = destinations[id];
-  const navigate = useNavigate();
+interface DestinationContentProps {
+  destination: DestinationPage;
+}
 
-  const handlers = useSwipeable({
-    onSwipedLeft: () => {
-      if (destination.next) {
-        navigate(`/${destination.next}`);
-      }
-    },
-    onSwipedRight: () => {
-      if (destination.prev) {
-        navigate(`/${destination.prev}`);
-      }
-    },
-  });
-
-  useEffect(() => {
-    // In PWA mode moving to next destination keeps the scrolled location at
-    // the bottom of the page. This tries to make it nicer for the user to get
-    // directly at the top of the page when changing between destinations.
-    window.scrollTo(0, 0);
-  }, [id]);
-
+const DestinationContent = ({ destination }: DestinationContentProps) => {
   return (
     <>
       <Container
-        {...handlers}
         maxWidth="md"
         title={destination.title}
         className="destination"
@@ -88,7 +65,58 @@ export const Destination = () => {
           </Grid>
         </Grid>
       </Container>
-      <DestinationBottomNav prev={destination.prev} next={destination.next} />
     </>
+  );
+};
+
+export const Destination = () => {
+  const { id } = useParams() as { id: string };
+  const { destinations } = useRouteLoaderData(
+    'destinations',
+  ) as DestinationsData;
+  const destination = destinations[id];
+  const { setDirection } = useDirection();
+  const navigate = useNavigate();
+
+  const handlers = useSwipeable({
+    onSwipedLeft: () => {
+      if (destination.next) {
+        setDirection(1);
+        navigate(`/${destination.next}`);
+      }
+    },
+    onSwipedRight: () => {
+      if (destination.prev) {
+        setDirection(-1);
+        navigate(`/${destination.prev}`);
+      }
+    },
+  });
+
+  useEffect(() => {
+    // In PWA mode moving to next destination keeps the scrolled location at
+    // the bottom of the page. This tries to make it nicer for the user to get
+    // directly at the top of the page when changing between destinations.
+    window.scrollTo(0, 0);
+  }, [id]);
+
+  return (
+    <div
+      {...handlers}
+      style={{ position: 'relative', overflowX: 'hidden', minHeight: '100vh' }}
+    >
+      <div
+        style={{
+          position: 'absolute',
+          width: '100%',
+          padding: '12px 12px',
+          top: 0,
+          left: 0,
+        }}
+      >
+        <DestinationContent destination={destination} />
+      </div>
+      <DestinationBottomNav prev={destination.prev} next={destination.next} />
+    </div>
   );
 };
