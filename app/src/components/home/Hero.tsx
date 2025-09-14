@@ -2,12 +2,12 @@ import MapIcon from '@mui/icons-material/Map';
 
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
+import Fab from '@mui/material/Fab';
 import Typography from '@mui/material/Typography';
 import { useNavigate } from 'react-router';
 import { PageBase } from '../../data';
 import { resolveImagePath } from '../../util/util.js';
 import { Block } from '../contentblocks';
-import { LocationAwareButton } from './LocationAwareButton.js';
 
 interface HeroProps {
   page: PageBase;
@@ -61,12 +61,22 @@ export const Hero = ({ page }: HeroProps) => {
             <Block contentBlock={block} />
           </Typography>
         ))}
-        <LocationAwareButton
-          text="Kohteet kartalla"
-          altText="Näytä kyläkävelyn kohteet kartalla"
+        <Fab
           onClick={() => navigate('/map')}
-          icon={<MapIcon />}
-        />
+          variant="extended"
+          color="secondary"
+          aria-label="Näytä kyläkävelyn kohteet kartalla"
+          sx={{
+            margin: '32px',
+          }}
+        >
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <span style={{ marginRight: '6px' }}>
+              <MapIcon />
+            </span>
+            <span>Kohteet kartalla</span>
+          </div>
+        </Fab>
       </Container>
     </Box>
   );
