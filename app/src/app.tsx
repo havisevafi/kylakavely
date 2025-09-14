@@ -15,6 +15,7 @@ import { Destinations, DestinationsData } from './data';
 import { appTheme } from './theme.js';
 
 import { DirectionProvider } from './components/animate/DirectionContext';
+import { DestinationMap } from './components/map/DestinationMap';
 import mockDestinations from './data/destinations.json' with { type: 'json' };
 
 const destinationsLoader = () => {
@@ -69,9 +70,15 @@ const Layout = () => {
   const location = useLocation();
 
   return (
-    <div className="relative w-full h-full overflow-hidden">
+    <div
+      style={{
+        position: 'relative',
+        width: '100%',
+        height: '100vh',
+        overflow: 'hidden',
+      }}
+    >
       <PageTransitionWrapper>
-        {/* Outlet renders child routes (Home or Destination) */}
         <Outlet key={location.pathname} />
       </PageTransitionWrapper>
     </div>
@@ -89,6 +96,10 @@ const router = createHashRouter([
       {
         index: true,
         element: <Home />,
+      },
+      {
+        path: 'map',
+        element: <DestinationMap />,
       },
       {
         path: ':id',

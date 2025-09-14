@@ -1,8 +1,7 @@
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import { useNavigate, useRouteLoaderData } from 'react-router';
+import { useRouteLoaderData } from 'react-router';
 import { DestinationsData } from '../../data';
-import { findNearestDestinationId, getGeoLocation } from '../../util/util.js';
 import { AttractionCard } from './AttractionCard.jsx';
 import { Hero } from './Hero.jsx';
 
@@ -10,29 +9,6 @@ export const Home = () => {
   const { mainPage, destinations } = useRouteLoaderData(
     'destinations',
   ) as DestinationsData;
-  const navigate = useNavigate();
-
-  const onLocateSuccess = (position: GeolocationPosition) => {
-    const currentLoc = {
-      lat: position.coords.latitude,
-      lon: position.coords.longitude,
-    };
-
-    const nearestDestinationId = findNearestDestinationId(
-      destinations,
-      currentLoc,
-    );
-
-    navigate(`/${nearestDestinationId}`);
-  };
-
-  const onLocateError = (err: GeolocationPositionError) => {
-    alert(err); // TOOD:
-  };
-
-  const onLocate = async () => {
-    await getGeoLocation(onLocateSuccess, onLocateError);
-  };
 
   const attractions = Object.entries(destinations).map(([id, data]) => {
     return (
@@ -61,7 +37,7 @@ export const Home = () => {
 
   return (
     <div>
-      <Hero page={mainPage} onLocate={onLocate} />
+      <Hero page={mainPage} />
       <Paper>{/*Placeholder*/}</Paper>
       <Grid
         container

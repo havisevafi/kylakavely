@@ -1,6 +1,9 @@
 import { AnimatePresence, motion } from 'motion/react';
+import React from 'react';
 import { useLocation } from 'react-router';
 import { useDirection } from './DirectionContext';
+
+import './PageTransitionWrapper.scss';
 
 const variants = {
   initial: (direction: number) => ({
@@ -19,11 +22,13 @@ const variants = {
   }),
 };
 
+interface PageTransitionWrapperProps {
+  children: React.ReactNode;
+}
+
 export const PageTransitionWrapper = ({
   children,
-}: {
-  children: React.ReactNode;
-}) => {
+}: PageTransitionWrapperProps) => {
   const location = useLocation();
   const { direction } = useDirection();
 
@@ -36,12 +41,10 @@ export const PageTransitionWrapper = ({
         animate="animate"
         exit="exit"
         custom={direction}
-        className="absolute w-full h-full"
+        className="motion-div"
       >
         {children}
       </motion.div>
     </AnimatePresence>
   );
 };
-
-export default PageTransitionWrapper;
