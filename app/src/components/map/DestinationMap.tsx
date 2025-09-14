@@ -1,7 +1,6 @@
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import type { LatLngLiteral } from 'leaflet';
-import L from 'leaflet';
 import { useEffect, useState } from 'react';
 import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet';
 import { Link, useNavigate, useRouteLoaderData } from 'react-router';
@@ -11,6 +10,7 @@ import type {
   DestinationsData,
 } from '../../data';
 import { useLocate } from '../../util/useLocate';
+import { blueDotIcon, destinationIcon } from './icons';
 
 import 'leaflet/dist/leaflet.css';
 import './DestinationMap.scss';
@@ -20,19 +20,6 @@ const getLatLngExpression = (destination: DestinationPage): LatLngLiteral => ({
   lng: destination.location.lon,
 });
 
-const blueDotSvg = encodeURIComponent(`
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-    <circle cx="12" cy="12" r="10" fill="#2196f3" stroke="white" stroke-width="3"/>
-  </svg>
-`);
-
-const blueDotIcon = L.icon({
-  iconUrl: `data:image/svg+xml,${blueDotSvg}`,
-  iconSize: [24, 24],
-  iconAnchor: [12, 12],
-  popupAnchor: [0, -12],
-});
-
 interface MapContentProps {
   position: LatLngLiteral;
   destinations: Destinations;
@@ -40,17 +27,21 @@ interface MapContentProps {
 
 const MapContent = ({ position, destinations }: MapContentProps) => {
   const map = useMap();
-  const destinationMarkers = Object.entries(destinations).map(
-    ([key, value]) => {
+  const destinationMarkers = Object.entries(destinations)
+    .filter(([key]) => key !== '0')
+    .map(([key, value]) => {
       return (
-        <Marker key={key} position={getLatLngExpression(value)}>
+        <Marker
+          key={key}
+          position={getLatLngExpression(value)}
+          icon={destinationIcon}
+        >
           <Popup>
             <Link to={`/${key}`}>{value.title}</Link>
           </Popup>
         </Marker>
       );
-    },
-  );
+    });
 
   return (
     <>
