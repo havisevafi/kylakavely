@@ -49,13 +49,13 @@ export const findNearestDestinationId = (
   destinations: Destinations,
   currentLoc: DestinationLocation,
 ) => {
-  const destinationsWithDistances = Object.entries(destinations).map(
-    ([id, d]) => ({
+  const destinationsWithDistances = Object.entries(destinations)
+    .filter(([key]) => key !== '0')
+    .map(([id, d]) => ({
       ...d,
       id,
       distance: haversineDistanceKm(currentLoc, d.location),
-    }),
-  );
+    }));
 
   destinationsWithDistances.sort((d1, d2) => d1.distance - d2.distance);
 
