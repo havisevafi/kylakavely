@@ -17,7 +17,19 @@ interface DestinationContentProps {
   destination: DestinationPage;
 }
 
+const PrivateDestinationNote = () => (
+  <div>
+    <strong>
+      <em>
+        Tämä kohde on yksityisalueella, tutustu kohteeseen vain tieltä. Ethän
+        häiritse asukkaiden rauhaa.
+      </em>
+    </strong>
+  </div>
+);
+
 const DestinationContent = ({ destination }: DestinationContentProps) => {
+  const isPrivate = !(destination.public ?? false);
   return (
     <>
       <Container
@@ -59,6 +71,7 @@ const DestinationContent = ({ destination }: DestinationContentProps) => {
             </Typography>
           </Grid>
           <Grid size={{ xs: 12 }}>
+            {isPrivate && <PrivateDestinationNote />}
             {destination.content.map((contentBlock, index) => {
               return <Block key={index} contentBlock={contentBlock} />;
             })}

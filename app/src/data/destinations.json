@@ -14,6 +14,7 @@
       "title": "Tietoja kyläkävelystä",
       "image": "0_lukijalle.jpg",
       "validUntil": "2040-12-31",
+      "public": true,
       "content": [
         {
           "type": "subtitle",
@@ -290,6 +291,7 @@
     "3": {
       "title": "3. Antilan kauppa",
       "image": "3_antilakauppa.jpg",
+      "public": false,
       "validUntil": "2040-12-31",
       "content": [
         {
@@ -384,12 +386,83 @@
         "lon": 24.091890486857253
       },
       "prev": 0,
+      "next": 4
+    },
+    "4": {
+      "title": "4. Flinkin paja",
+      "image": "4_flinkin_paja.jpg",
+      "validUntil": "2040-12-31",
+      "public": true,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Flinkin paja sijaitsi Siitamantien varressa Antilan kaupan vieressä (Rapakivenmäki, josta myöhemmin käytettiin nimeä Pajamäki l. Linkinmäki). Paja oli toiminnassa ainakin vielä 1920-luvulla."
+        },
+        {
+          "type": "paragraph",
+          "text": "Seppä Janne Flink asui Mäkikyläntien varrella (Mäkikyläntie 56) Myllyojan läheisyydessä nykyisessä Kohosen talossa, Antilan mäkitupalaisena vaimonsa Fiinun kanssa. Fiinulla oli tapana teititellä miestään vähän tylysti - ”Seppä ottaa ny” - ruokaa tai kahvia tarjotessaan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Valitettavasti seppä Flinkin kohtalona oli ikävä kuolema. Hän oli kovasti uurastanut saadakseen saunan rakennettua. Vuosien työn jälkeen, Flink lämmitti saunan ensimmäistä kertaa ja kuoli sinne häkämyrkytykseen."
+        },
+        {
+          "type": "paragraph",
+          "text": "Janne Flinkin kuoltua pajatoiminta Pajamäessä jatkui ajoittain 1940-luvun loppuvuosiin asti. Ensin seppänä oli Nieminen, joka oli ollut aiemmin Tampereella palolaitoksen seppänä ja asui Havisevanlahden rannalla Pietilän maalla lähellä Myllyojan suuta. Sen jälkeen vielä Arvi Rantamäki hoiti sepän virkaa. Hänellä oli pieni talo Perälän alueella Havisevanlahden rannalla Mutikon salmen kohdalla."
+        },
+        {
+          "type": "paragraph",
+          "text": "Seuraavaksi pajatoimintaa harjoitti kyläkunnassa Vilho (Vikki) Ahola, joka rakensi uuden pajan Siitamantien varteen Itkunkorvenmäen päälle Seppälään menevän polun kohdalle. Hän rakensi myös asuintalon itselleen Rukoushuoneen mäen (Haapa-ahteen) päälle Fanni ja Jussi Willgrenin naapuriin. Talo on ollut pitkään asumattomana, mutta syksyllä 2014 sitä alettiin remontoida asuinkuntoon."
+        }
+      ],
+      "location": {
+        "lat": 61.54379090693312,
+        "lon": 24.09233810036966
+      },
+      "prev": 3,
+      "next": 6
+    },
+    "6": {
+      "title": "6. Kuka oli Keittäjä-Maija",
+      "image": "6_keittaja-maija.jpg",
+      "validUntil": "2040-12-31",
+      "public": true,
+      "content":  [
+        {
+          "type": "paragraph",
+          "text": "Havisevan koulun johtokunta päätti, että myös Havisevan koululle tarvitaan kouluruokailu muutaman muun Kangasalla sijaitsevan koulun tapaan. Kouluruokailu aloitettiin syksyllä 1930. Koululle tarvittiin keittäjä, jonka työtehtäviin kuului myös siivousta, muurien lämmitystä ja lumitöitä. Lähistöllä sattui asumaan työhön sopiva henkilö Maria Viitanen eli “Marrii”."
+        },
+        {
+          "type": "paragraph",
+          "text": "Maria ja Kalle Viitasen mökki oli Keittäjämaijantien päässä. Sitä tarina ei kerro, kuinka Marriin nimestä tuli Maija tienviittaan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Marriin työ alkoi piharakennuksessa sijaitsevassa saunassa, jonka muurinpadassa ruoka tuli valmistaa. Antilan Kirsti muisteli, että tilat olivat kovin alkeelliset ja saunassa taisi olla jopa maalattia. Vedenkin joutui kantamaan ylös rannan puoleiselta kaivolta. Keitot olivat kuitenkin maistuvia. Eteisessä Marrii jakoi keiton punaisesta emaliämpäristä. Jokainen oppilas sai lautasellisen keittoa ja kupin maitoa. Ne kannettiin luokkaan ja pulpetille levitettiin valkoinen liina ennen ruokailun aloittamista. Myöhemmin, muuripata todettiin epäsopivaksi ruuan valmistukseen ja keittäjän avuksi muurattiin hella."
+        },
+        {
+          "type": "image",
+          "url": "6_keittaja-maija_1.jpg",
+          "title": "Maria ja Kalle Viitanen"
+        },
+        {
+          "type": "image",
+          "url": "6_keittaja-maija_2.jpg",
+          "title": "Keittäjä-Maija Maria \"Marrii\" Viitanen"
+        }
+      ],
+      "location": {
+        "lat":61.544537271898314,
+        "lon": 24.096624270194518
+      },
+      "prev": 4,
       "next": 7
     },
     "7": {
       "title": "7. Pietilä",
       "image": "7_pietila.jpg",
       "validUntil": "2025-10-19",
+      "public": false,
       "content":  [
         {
           "type": "paragraph",
@@ -420,13 +493,40 @@
         "lat": 61.544569263263334,
         "lon": 24.097900300486245
       },
-      "prev": 3,
+      "prev": 6,
+      "next": 8
+    },
+    "8": {
+      "title": "8. Havisevan myllypirtti",
+      "image": "8_havisevan_myllypirtti.jpg",
+      "validUntil": "2040-12-31",
+      "public": true,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pietilän omistuksessa ollut Myllypirtti sijaitsi nykyisen Siitamantie 288 kohdalla, aivan tien vieressä. Myllypirttiin sisälle mentäessä ensimmäisenä oli isohko porstua kylmäkomeroineen. Talon Suinulan puoleisessa päädyssä oli pirtti, jossa oli iso leivinuuni ja tulisija ruoanlaittoa varten. Pirtin takana oli pieni erillinen huone, jonka nurkasta löytyi pönttöuuni. Ikkunasta oli maisema Havisevanlahdelle."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ensimmäinen maininta Myllypirtistä löytyy vuodelta 1896, jolloin Havisevan talolliset päättivät rakentaa myllärille asunnon Myllypirtin vierestä menevän Myllytien varteen. Myllypirtissä asui 1910-luvulla Nanna ja Vihtori Kiviranta lapsineen Vihtorin lopetettua kauppansa Suinulan asemalla. Osa Myllypirtin vaiheista on löytynyt professori Viljo Nissilän (1903-1986) kirjoituksista, sillä hän vieraili usein enonsa Vihtori Kivirannan luona. Asumisen kestosta ei ole varmaa tietoa, mutta vuonna 1922 Kiviranta, Pietilästä löytyneen kauppakirjan mukaan, osti omakseen Pietilän perintötalosta Koivikko-nimisen mäkitupa-alueen, joka sijaitsi Havisevan koulun vieressä, Pietilän haassa."
+        },
+        {
+          "type": "paragraph",
+          "text": "1940-luvulla Myllypirtissä asui Pietilän karjanhoitaja ja myöhemmin sitä käytettiin kesäasuntona. Huonokuntoinen rakennus purettiin 1960-luvun lopulla."
+        }
+      ],
+      "location": {
+        "lat": 61.54483360359034,
+        "lon": 24.099469771247943
+      },
+      "prev": 7,
       "next": 9
     },
     "9": {
       "title": "9. Havisevan myllyt",
       "image": "9_havisevan_myllyt.jpg",
       "validUntil": "2040-12-31",
+      "public": true,
       "content": [
         {
           "type": "paragraph",
@@ -459,16 +559,17 @@
         }
       ],
       "location": {
-        "lat": 61.544376102285426,
-        "lon": 24.09732689890959
+        "lat": 61.54500976437327,
+        "lon": 24.100056420364318
       },
-      "prev": 7,
+      "prev": 8,
       "next": 10
     },
     "10": {
       "title": "10. Paavolan tila",
       "image": "10_paavolan_tila.jpg",
       "validUntil": "2025-10-19",
+      "public": false,
       "content": [
         {
           "type": "paragraph",
@@ -544,12 +645,47 @@
         "lon": 24.103971903768826
       },
       "prev": 9,
+      "next": 11
+    },
+    "11": {
+      "title": "11. Torppa",
+      "image": "11_torppa.jpg",
+      "validUntil": "2040-12-31",
+      "public": true,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Torppa sijaitsi Salomaantien toisella puolella nykyistä Kirsti Antilan taloa vastapäätä. Torppa oli alunperin Työväenyhdistyksen ylläpitämä, ja sillä oli 50-vuotinen lupa sijaita Perälän omistamalla maalla, mutta ilmeisesti Torppa toimi tätä kauemmin. Se oli käytössä jo sisällissodan aikana vuonna 1918."
+        },
+        {
+          "type": "paragraph",
+          "text": "Torpassa oli iso sali, kammari, keittiö ja eteinen, jossa oli kani eli takkinarikka. Torpalla järjestettiin aluksi pääasiassa tansseja. Salissa oli myös korotettu esiintymislava ja esirippu; ainakin myöhemmässä vaiheessa siellä oli teatteria sekä elokuvia. Myös Harjulan Halla ja Nuorisoseura järjestivät Torpalla tansseja sekä muita tapahtumia. Toimintaa oli pääasiassa kesäisin, mutta salissa olevien kahden muurin ansiosta tilaa saattoi käyttää myös talvella."
+        },
+        {
+          "type": "paragraph",
+          "text": "Torppa purettiin 60-luvun lopulla tai 60- ja 70-lukujen vaihteessa. Kirsti Antila muisteli, että rakennuksessa olisi ollut punosjohtoiset sähköt, joita ei sitten enää päätetty uusia, ja muutenkin talo todettiin huonokuntoiseksi."
+        },
+        {
+          "type": "paragraph",
+          "text": "Torpan hirret kuitenkin saivat uusiokäyttöä: niistä rakennettiin Asemalle Vieno Rajalalle torppa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Toisinaan juhinta Torpalla riistäytyi käsistä, mistä kertoo esimerkiksi Kangasalan Sanomissa 5.1.1923 ollut juttu Kipakka tappelu havisevalla Suinulan työväenyhdistyksen taloa “Torpalla”. Uudenvuodenjuhlinnan aikana paikalle oli saapunut viinakauppiaita ja Torpan sähkövalaistus oli mennyt epäkuntoon, minkä jälkeen joku oli heittänyt palamassa olleen öljylampun maahan. Tästä alkoi lehden mukaan yleinen tappelu, jossa käytettiin ampuma-aseita, puukkoja, nyrkkirautoja ja pihlajakarttuja. Pahimmin haavoittui Suinulan Seppälän renki Sulo Peltonen, jolle tuli käsivarteen leikkaushoitoa vaatinut haava, joka oli niin paha, että Pohjanmaan pikajuna oli pysäytettävä Suinulassa, jotta haavoittunut saatiin kuljetetuksi Tampereelle. “Havisevaa on pidetty rauhallisena kylänä. Ei sieltä ennen tämmöistä ole kuulunut. Mutta nykyään, kun iltamia vietetään joka viikko, alkavat tappelutkin olla jokaviikkoisia, jos vain poliisia ei ole saapuvilla”, raportoi Kangasalan Sanomat. Tapahtuman seurauksena Kangasalan piirin nimismies ilmoitti, että koska iltamatoimikunnat eivät voi vastata järjestyksestä ja pitää sitä yllä, ei enää tulla myöntämään iltamain pitolupia mainitulla Suinulan työväenyhdistyksen talolla (Kangasalan Sanomat 20.1.1923)."
+        }
+      ],
+      "location": {
+        "lat": 61.546450496421095,
+        "lon": 24.10797666342016
+      },
+      "prev": 10,
       "next": 12
     },
     "12": {
       "title": "12. Antila",
       "image": "12_antila.jpg",
-      "validUntil": "2025-10-19",
+      "validUntil": "2025-09-30",
+      "public": false,
       "content": [
         {
           "type": "paragraph",
@@ -595,7 +731,8 @@
     "13": {
       "title": "13. Jokiranta (Lepokoti)",
       "image": "13_jokiranta.jpg",
-      "validUntil": "2025-10-19",
+      "validUntil": "2025-09-30",
+      "public": false,
       "content": [
         {
           "type": "paragraph",
@@ -617,6 +754,7 @@
       "title": "14. Kallionpää",
       "image": "14_kallionpaa.jpg",
       "validUntil": "2040-12-31",
+      "public": false,
       "content": [
         {
           "type": "paragraph",
@@ -660,10 +798,19 @@
       "title": "15. Mäkitupalaiset",
       "image": "15_makitupalaiset.jpg",
       "validUntil": "2040-12-31",
+      "public": false,
       "content": [
         {
           "type": "paragraph",
           "text": "Mäkikylä on syntynyt ilmeisesti jo 1700-luvun puolivälissä. Mäkikylän ”mäkitupalaiskylä” sijoittui sikopiirin läheisyyteen. Mäkituvalla tarkoitetaan vuokra-aluetta, joka on alle kaksi hehtaaria käsittäen tontin ja perunamaan. Tilalla oli yleensä 1-2 lehmää. Mäkitupalainen maksoi vuokraa kantatilalle yleensä päivätöinä (taksvärkki), mutta ei harjoittanut varsinaista maanviljelystä. Mäkitupalaiset lunastivat tilansa noin 1920-luvulla. Suurin osa mäkitupalaisista oli käsityöläisiä tai työskentelivät rautateillä topparoikassa."
+        },
+        {
+          "type": "subtitle",
+          "text": "Ville Laine"
+        },
+        {
+          "type": "paragraph",
+          "text": "Päiväkumpu 4:16, Mäkikyläntie 41. Vilhelm (Ville) ja Elli Laine ostivat 1936 Antilasta. Ville työskenteli topparoikassa. Talon kunnostuksesta voi lukea tarkemmin Kangasalan Sanomista 19.8.2014."
         },
         {
           "type": "subtitle",
@@ -690,6 +837,22 @@
           "type": "image",
           "url": "15_makitupalaiset_2.jpg",
           "title": "Pankki-Hakala"
+        },
+        {
+          "type": "subtitle",
+          "text": "Niemi"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kivistö 5:12, Mäkikyläntie 70. Kalle Daniel Niemi lunasti talon 1919 Uotilasta."
+        },
+        {
+          "type": "subtitle",
+          "text": "Sikopiiri"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mäkikyläntien ja Jalmari Koiviston tien risteyksessä, Mäkikyläntien kantatilojen sikojen yhteislaidun, joka oli aidattu. Entisen Niemen talon perunakuopan ja Jalmari Koiviston -tien välissä oleva kolmiomainen rinne. 30-luvulla kylän lasten pelikenttä, jossa pelattiin mm. nelimaalia sekä  ”piksua”, jossa on vain yksi maali."
         }
       ],
       "location": {
@@ -703,6 +866,7 @@
       "title": "16. Piikainsilta",
       "image": "16_piikainsilta.jpg",
       "validUntil": "2040-12-31",
+      "public": true,
       "content": [
         {
           "type": "paragraph",
@@ -733,6 +897,7 @@
       "title": "17. Havisevan koulu",
       "image": "17_havisevan_koulu.jpg",
       "validUntil": "2040-12-31",
+      "public": true,
       "content": [
         {
           "type": "paragraph",
@@ -770,13 +935,60 @@
         "lat": 61.545151667979766,
         "lon": 24.071178357144277
       },
-      "next": 19,
+      "next": 18,
       "prev": 16
+    },
+    "18": {
+      "title": "18. Noka",
+      "image": "18_noka.jpg",
+      "validUntil": "2040-12-31",
+      "public": true,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tamperelainen insinööri Olavi Raitio osti 1940-luvulla tontin Suinulasta nykyisen Havisevantien varrelta leikkikentän ja rautatien välistä. Tontille rakennettiin hirrestä kaksikerroksinen tehdasrakennus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Puusepäntehdas Noka on merkitty kaupparekisteriin 12.4.1946. Nokan tuotteista kuuluisimpia olivat jääpallomailat. Ne valmistettiin modernisti ns. suurjatkos-kuumentajalla, jossa maila kuivui muutamassa sekunnissa ja vahva reenjalaskin muutamassa minuutissa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kyläläisten ja työntekijöiden Inssiksi nimeämä Raitio oli kova kokeilemaan ja tehtaan tuotevalikoima laaja. Siellä valmistettiin mm. jääkiekkomailoja, suksia, hevosen luokia, lankalaatikoita Suomen Trikoolle, puisia sahan kaaria, traktorireen jalaksia, tarjottimia, bendyylikellon koteloita sekä kutomakoneen lyöntikäpäliä. Tehtaasta valmiit tuotteet kuljetettiin hevospelillä asemalle, josta ne lähetettiin tilaajille."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tuli tuhosi tehdasrakennuksen yöllä 20.11.1947. Työnjohtaja Toivo Laakso perheineen pelastui palavasta rakennuksesta, mutta perheen koira paloi yläkerran asuntoon. Vahingon suuruudeksi arvioitiin 5-6 miljoonaa markkaa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kevään ja kesän aikana Noka rakennettiin uudelleen samojen tolppien päähän lautarakenteisena. Puusepäntehtaan toiminta rakennuksessa kuitenkin hiipui vähitellen ja loppui kokonaan 1955."
+        },
+        {
+          "type": "paragraph",
+          "text": "Loppuvaiheessa valmistettiin vielä ikkunoita ja ovia karmeineen, kalusteita konttoreihin ja myymälöihin, mm. vakuutusyhtiö Pohjolan konttori Tampereen Hatanpäänvaltatiellä kalustettiin Nokan valmistamilla kalusteilla."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nokan päättymisen jälkeen kiinteistöä omisti Kalle Öistämö. Rakennuksessa ei ollut mitään toimintaa, kunnes Eräväline Oy osti sen vuonna 1960. Antti Sirenin yritys valmisti siellä verkkoja ja kaivatti pihaan lammen, jossa kasvatti kalanpoikasia."
+        },
+        {
+          "type": "paragraph",
+          "text": "Eräväline myi tilan 1970-luvun lopussa, ja sinne perustettiin kanala. Kanala lopetti toimintansa 1980-1990-lukujen vaihteessa."
+        }
+      ],
+      "location": {
+        "lat": 61.54547231998499,
+        "lon": 24.06097903513272
+      },
+      "next": 19,
+      "prev": 17
     },
     "19": {
       "title": "19. Saalemin rukoushuone",
       "image": "19_saalemin_rukoushuone.jpg",
       "validUntil": "2040-12-31",
+      "public": false,
       "content": [
         {
           "type": "paragraph",
@@ -800,12 +1012,13 @@
         "lon": 24.06097903513272
       },
       "next": 22,
-      "prev": 17
+      "prev": 18
     },
     "22": {
       "title": "22. Kangasalan Osuuskauppa, Suinulan sivumyymälä",
       "image": "22_kangasalan_osuuskauppa_suinula.jpg",
       "validUntil": "2040-12-31",
+      "public": false,
       "content": [
         {
           "type": "paragraph",
@@ -852,6 +1065,7 @@
       "title": "23. Talouskauppa",
       "image": "23_talouskauppa.jpg",
       "validUntil": "2040-12-31",
+      "public": false,
       "content": [
         {
           "type": "paragraph",
@@ -877,6 +1091,7 @@
       "title": "24. Puhelinkeskus",
       "image": "24_puhelinkeskus.jpg",
       "validUntil": "2040-12-31",
+      "public": false,
       "content": [
         {
           "type": "paragraph",
@@ -891,13 +1106,40 @@
         "lat": 61.54130605241151,
         "lon": 24.057197883249152
       },
-      "next": 26,
+      "next": 25,
       "prev": 23
+    },
+    "25": {
+      "title": "25. Öistämön uistinverstas",
+      "image": "25_oistamon_uistinverstas.jpg",
+      "validUntil": "2040-12-31",
+      "public": true,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Rakennus valmistui vuonna 1940. Vuoteen 1949 saakka siinä toimi Suomen Kalastusväline Oy. Sen jälkeen vuosina 1949-1974 yritys K. Öistämö jatkoi kalastusvälineiden valmistusta kiinteistössä."
+        },
+        {
+          "type": "paragraph",
+          "text": "1949-1954 talossa toimi myös Suinulan neulomo, jota pitivät Kaisa Öistämö ja sisarensa Liisa Lumme. Neulomossa valmistettiin vaatteita mittatilaustyönä. 1950-luvulla rakennuksen alakerrassa oli Alpo Aaltosen prässi, jolla hän valmisti  uistinlippoja ja solkia esimerkiksi kellonremmeihin ja patellavöihin."
+        },
+        {
+          "type": "paragraph",
+          "text": "Syksyllä 1951 rakennuksen pohjoispäähän valmistui asuinhuoneisto, jossa Öistämöt asuivat talvisin vuoteen 1974 saakka. Sen jälkeen rakennus on ollut yksityisasuntona. Paikan historiasta muistuttaa edelleen rakennukselle johtavan tien nimi Uistinpolku."
+        }
+      ],
+      "location": {
+        "lat": 61.54100958622967,
+        "lon": 24.05977265971629
+      },
+      "next": 26,
+      "prev": 24
     },
     "26": {
       "title": "26. Suinulan urheilukenttä",
       "image": "26_suinulan_urheilukentta.jpg",
       "validUntil": "2040-12-31",
+      "public": true,
       "content": [
         {
           "type": "paragraph",
@@ -1020,12 +1262,13 @@
         "lon": 24.059441
       },
       "next": 27,
-      "prev": 24
+      "prev": 25
     },
     "27": {
       "title": "27. Väikäränmäki",
       "image": "27_vaikaranmaki.jpg",
       "validUntil": "2040-12-31",
+      "public": true,
       "content": [
         {
           "type": "paragraph",
@@ -1055,6 +1298,7 @@
       "title": "28. Uotila",
       "image": "28_uotila.jpg",
       "validUntil": "2025-10-19",
+      "public": false,
       "content": [
         {
           "type": "paragraph",
@@ -1087,6 +1331,7 @@
       "title": "29. Haralanharjun näkötorni",
       "image": "29_haralanharjun_nakotorni.jpg",
       "validUntil": "2040-12-31",
+      "public": true,
       "content": [
         {
           "type": "paragraph",
@@ -1139,13 +1384,76 @@
         "lat": 61.53472791775906,
         "lon": 24.082869605328035
       },
-      "next": 32,
+      "next": 30,
       "prev": 27
+    },
+    "30": {
+      "title": "30. Harala",
+      "image": "30_harala.jpg",
+      "validUntil": "2040-12-31",
+      "public": false,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tilan historia alkaa jo 1500-luvulta, jolloin taloa asuivat vuosina 1543-1552 Erkki Hara ja vuosina 1553-1606 Mikko Erkinpoika Hara. Isäntien nimestä sai myös tila nimekseen Harala. Vuonna 1652 tila yhdistettiin luutnantti Erik Ulfin säterikartanoksi. Hänen kuolemansa jälkeen säteri oli perikunnan hallussa jonkin aikaa. Vuonna 1873 Heikki Hara myi tilan nykyiselle suvule."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tila sijaitsi noin 1800-luvulle asti Havisevan vastarannalla Antilan kohdalla, missä olivat kaikki muutkin kylän kuusi kantatilaa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nykyisen tilanpitäjän sukupolvet juontavat juurensa vuoteen 1873, kun tilalle muutti vuoren toiselta puolelta Mustoolta Kustaa Mustoo, joka otti nimekseen tilan mukaan Harala. Tilan nykyinen rakennuskanta on vanhimmalta osaltaan Kustaan rakentamaa. Punaisen pytingin hän siirsi Mustoolta Haralaan. Kivinavetan rakensi hänen poikansa Vuorenmaan kivilohkareista vuonna 1895. Myös 1900-luvun alkupuolella rakennettiin uusi päärakennus, joka muodostaa nykyäänkin yhtenäisen pihapiirin punaisen pytingin kanssa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tilan on periytynyt isältä pojalle jo viidessä sukupolvessa, tässä isännät järjestyksessä:"
+        },
+        {
+          "type": "paragraph",
+          "text": "-Kustaa Mustoo 1873-1895"
+        },
+        {
+          "type": "paragraph",
+          "text": "-Kustaa Harala 1895-1935"
+        },
+        {
+          "type": "paragraph",
+          "text": "-Valio Harala 1935-1962"
+        },
+        {
+          "type": "paragraph",
+          "text": "-Jouko Harala 1962-2001"
+        },
+        {
+          "type": "paragraph",
+          "text": "-Antti Harala 2001-"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tilalla on pitkät perinteet maanviljelyksessä, karjankasvatuksessa, maidontuotannossa ja metsätaloudessa. Jouko Haralan isännyyden aikana karjanjalostuksessa tehtiin monia merkittäviä suomalaiseen maidontuotantoon vaikuttaneita ja edelleen vaikuttavia toimenpiteitä. Jouko oli osa suomalaisia karjan jaostajien ja maidon tuottajien vaikuttajia. Haralassa syntyneiden sonnivasikoiden jälkeläisiä löytyy edelleen kotimaisten karjojen lisäksi muun muassa Ruotsista ja Kandasta. Lehmiä Haralan navetassa lypsettiin aina vuoteen 2001 asti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nykyään tilalla keksitytään maanviljeyyn ja metsätalouteen. Tänäkin vuonna (2015) toimitetaan ruista Fazerin hapankorpputehtaalle Lahteen, vehnää Hyvinkään myllylle makaronin ja rakettispagetin valmistukseen, kauraa Nokian myllyyn suurimoiksi sekä ohraa Lahteen Mallastehtaalle. Talviaikaan hoidetaan teiden aurauksia ja hiekoituksia kahdella koneyksiköllä."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tilan talouskeskus on merkittävässä roolissa Haralanharjun kulttuurimaisemassa, joka on luokiteltu myös valtakunnallisesti merkittäväksi kulttuurihistorialliseksi ympäristöksi. Naapurin hevoset hoitavat mäkien maisemointitehtävää."
+        }
+      ],
+      "location": {
+        "lat": 61.5387338789818,
+        "lon": 24.096780296571396
+      },
+      "next": 32,
+      "prev": 29
     },
     "32": {
       "title": "32. Lapinsaari",
       "image": "32_lapinsaari.jpg",
       "validUntil": "2040-12-31",
+      "public": true,
       "content": [
         {
           "type": "paragraph",
@@ -1165,7 +1473,7 @@
         "lat": 61.53756746169889,
         "lon": 24.133147535078063
       },
-      "prev": 29
+      "prev": 30
     }
   }
 }
