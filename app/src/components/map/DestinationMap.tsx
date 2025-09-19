@@ -101,7 +101,11 @@ export const DestinationMap = () => {
       >
         <MapContent position={position} destinations={destinations} />
       </MapContainer>
-      <BottomNavigation showLabels onChange={handleNavigation}>
+      <BottomNavigation
+        className="bottom-nav-container"
+        showLabels
+        onChange={handleNavigation}
+      >
         <BottomNavigationAction label="Pääsivu" value="" />
         {canLocate && (
           <BottomNavigationAction label="Etsi minua lähin" value="closest" />
