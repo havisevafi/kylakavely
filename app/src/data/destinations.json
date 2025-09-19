@@ -286,6 +286,40 @@
         "lat": 61.544862002671344,
         "lon": 24.078913768376534
       },
+      "next": 2
+    },
+    "2": {
+      "title": "2. Nikkilä",
+      "image": "2_nikkila.jpg",
+      "public": false,
+      "validUntil": "2040-12-31",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Nikkilä on yksi Havisevan kylän kuudesta talosta, jotka mainitaan jo ensimmäisissä maakirjoissa vuodelta 1540. Nikkilän isäntänä oli tuolloin Niilo Nikkilä. Talot sijaitsivat alunperin Havisevanlahteen kallistuvalla rinteellä lähekkäin. Nykyiselle paikalleen Nikkilä siirrettiin kylällä 1790-luvulla toimitetussa isojaossa Matti Martinpojan ollessa isäntä."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nykyisen päärakennuksen on rakennuttanut Kalle Tuomaanpoika Nikkilä, joka osti talon isältään Tuomas Tuomaanpojalta vuonna 1868. Tuomas Tuomaanpoika oli tullut Palolta vävyksi Nikkilään. Kalle Tuomaanpoika Nikkilä toimi lautamiehenä ja kestikievarin pitäjänä. Pytingin mallin hän toi suolamatkoiltaan Porista. Rakennus valmistui kahdessa osassa. Ensin valmistui länsipää, jossa majoittui aluksi Tampere-Vaasa rautatierataa Havisevan kohdalla rakentaneita miehiä. Rakennuksen järvenpuoleinen pääty valmistui myöhemmin, ja siellä toimi myös kestikievari."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kaksikymmentä metriä pitkä rakennus seisoi alkuunsa pilarien varassa; kivijalka taloon tehtiin 1900-luvun alkupuolella. Samoihin aikoihin Nikkilään rakennettiin myös uusi navetta vanhan hakosontanavetan tilalle."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tilan halkomisessa 1930-luvun alussa osa Nikkilän silloisista rakennuksista käytettiin tarveaineiksi uusia tiloja rakennettaessa. Näin tulivat puretuiksi mm. koko aitta- ja tallirivi sekä riihet. Halkomisen jälkeen vain Nikkilän ja Yli-Nikkilän tilojen elanto saatiin maataloudesta. 1950- ja 1960-lukujen taitteessa Nikkilässä luovuttiin karjasta ja pellot annettiin vuokralle. Nikkilästä on myyty 1,30 hehtaarin suuruinen maa-alue nykyistä Havisevan koulua varten."
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Muutoksien tapahtumista seuratessani on usein tullut mieleeni, että mitähän Kalle Tuomaanpoika sanoisi, jos hän kesäaamuna palaisi Nikkilän mäelle ja näkisi sen alakuloisen hiljaiselon, joka noilla ennen niin eloisilla kartanoilla ja vainioilla nyt vallitsee. Ei näkisi ketään pellolla ahertamassa, ei hevosta eikä lehmää eikä kuulisi edes kukon laulua. Ainakaan sitä ei hänelle uskallettaisi sanoa, että viranomaisten suosituksesta on Vähä-Nikkilän ja vielä Maijanpirtin peltoja nyttemmin jopa istutettu koivulle ja saatu tästä vielä rahaakin valtiolta. Hyvä on, ettei Kalle Tuomaanpoika enempää kuin nekään, joiden uurastuksen ja hien tulosta nuo pellot ovat, ole näkemässä nykyisiä ailahteluja.\" (Väinö V. Seppälä Kangasalan Palo-suku II)"
+        }
+      ],
+      "location": {
+        "lat": 61.54257137469998,
+        "lon": 24.079105075110487
+      },
+      "prev": 0,
       "next": 3
     },
     "3": {
@@ -420,6 +454,78 @@
         "lon": 24.09233810036966
       },
       "prev": 3,
+      "next": 5
+    },
+    "5": {
+      "title": "5. Havisevan vanha koulu",
+      "image": "5_havisevan_vanha_koulu.jpg",
+      "validUntil": "2040-12-31",
+      "public": true,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Havisevan vanha koulu valmistui vuonna 1899 ensimmäiseksi vakituiseksi Havisevan koulurakennukseksi. Ensimmäisenä opettajana toimi Oskar Fredrik Helin ja hänen jälkeensä kouluun muutti Marttilan perhe. Isä Johannes “Hannes” Marttila toimi yläluokkien opettajana, hänen vaimonsa Hulda opetti käsitöitä ja heillä oli myös tytär Mirjami."
+        },
+        {
+          "type": "paragraph",
+          "text": "Päärakennuksessa oli kaksi luokkahuonetta, eteinen ja päädyssä opettajan asunto. Pihalla oli ainakin sauna, jossa valmistettiin koulun ruoka myöhemmässä vaiheessa, huuska ja puuliiteri. Toinen luokkahuoneista oli pihan puolella. Siellä opettaja Sofia Marttila (ei sukua J. Marttilalle) opetti alaluokkia eli 1.-2. -luokkalaisia. Tien puolella oli yläluokkien, eli 3.-6. luokkien luokkahuone."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vanha koulu toimi aina vuoteen 1957 asti. Viimeisinä vuosina koulua pidettiin lisäksi Multimättäässä ja Rukoushuoneella kunnes koulu lopulta todettiin liian pieneksi yhä vain kasvaville ikäluokille. Ennen Havisevan uuden koulun valmistumista oppilaat opiskelivat Rukoushuoneen koululla ja Multimättään koululla."
+        },
+        {
+          "type": "paragraph",
+          "text": "Koulunkäynti aloitettiin Antilan pirtissä vuosi ennen kuin kylälle saatiin oma koulurakennus. Ohessa vanha vuokrasopimus  jossa sovitaan koulun sijoittamisesta Antilaan lukuvuodeksi 1898-1899."
+        },
+        {
+          "type": "image",
+          "url": "5_havisevan_vanha_koulu_0.jpg",
+          "title": "Vuokrasopimus koulun sijoittamisesta Antilaan lukuvuodeksi 1898-1899"
+        },
+        {
+          "type": "paragraph",
+          "text": "Havisevan koulun ensimmäinen opettaja Oskar Helin hankki 16-henkiselle perheelleen lisätuloja laivanrakentajana ja laivurina 8-10 hengen höyrylaivallaan Peipillä. Peipillä päästiin edullisesti hyville kala-apajille Vesijärven perukoille saakka. Kyllästyttyään tähän alukseen, helin teki uuden laivan pienoismallin nimeltään Pilvenveikko, jota hän testaili Havisevan koulun rannassa. Pian koulun rannasta tulikin veneveistämö, kun Helin ryhtyi rakentamaan uutta alustaan. Rakennusaikana Helin suoritti perämiehen ja koneenkäyttäjän tutkinnot."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pilvenveikko myytiin Helsinkiin, jolloin alkoi uuden laivan suunnitteu- ja rakennustyöt Havisevan veneveistämöllä. Uusi höyrylaiva sai nimekseen Harjula, joka myöhemmin muutettiin Vesijärveksi. Harjula oli rekisteröity 25 hengelle, mutta sen perässä voitiin hinata lotjaa nimeltään Äijän pää. Harjula/Vesijärvi ajoi kirkolle puolessatunnissa ilman lastia. Aluksella tehtiin tilauksesta turistimatkoja joiden aikan Helin toimi mainiona oppaana kertoen muun muassa Amerikansaaresta, Pikonlinnasta ja Topeliuksen käynnistä Haralanharjulla."
+        },
+        {
+          "type": "paragraph",
+          "text": "Helin joutui valitettavasti taloudellisiin vaikeuksiin tekemiensä takauksien vuoksi ja joutui luopumaan Vesijärvi-laivasta. Sen osti Lihasulan isäntä Vihtori Peltonen, joka puolestaan myi laivan myöhemmin Hämeenlinnaan, missä se nimellä Puisto liikennöin kaupungin ja Aulangon väliä. Loputa alus hinattiin Vanajaveden seläle, jossa se tykkitulella upotettiin järven syvyyksiin. Havisevan rannassa rakennettiin myös Ukki niminen alus 1912."
+        },
+        {
+          "type": "image",
+          "url": "5_havisevan_vanha_koulu_1.jpg",
+          "title": "Höyrylaiva “Vesijärvi” ja lotja “Äijänpää” rakennettiin Havisevan veneveistämöllä Havisevan koulun rannassa. Nokkamiehenä toimi Kustaa Kiviranta. Kuva on 1900-luvun alkupuolelta."
+        },
+        {
+          "type": "image",
+          "url": "5_havisevan_vanha_koulu_2.jpg",
+          "title": "Höyrylaiva “Pilvenveikko” rakennettiin Havisevan koulun rannassa 1800-luvun lopulla."
+        },
+        {
+          "type": "image",
+          "url": "5_havisevan_vanha_koulu_3.jpg",
+          "title": "Kuva vuodelta 1937. Takarivissä keskellä J. Marttila, hänen vieressään vaimo Hulda ja tytär Mirjami."
+        },
+        {
+          "type": "image",
+          "url": "5_havisevan_vanha_koulu_4.jpg",
+          "title": "Olli Viitanen vanhan koulun edessä 1951."
+        },
+        {
+          "type": "image",
+          "url": "5_havisevan_vanha_koulu_5.jpg",
+          "title": "Kaarlo Jalmari Antila päästötodistus Havisevan ylemmästä kansakoulusta 28.10.1888"
+        }
+      ],
+      "location": {
+        "lat": 61.54393184079845,
+        "lon": 24.09473654916586
+      },
+      "prev": 4,
       "next": 6
     },
     "6": {
@@ -455,7 +561,7 @@
         "lat":61.544537271898314,
         "lon": 24.096624270194518
       },
-      "prev": 4,
+      "prev": 5,
       "next": 7
     },
     "7": {
