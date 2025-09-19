@@ -567,7 +567,7 @@
     "7": {
       "title": "7. Pietilä",
       "image": "7_pietila.jpg",
-      "validUntil": "2025-10-19",
+      "validUntil": "2040-12-31",
       "public": false,
       "content":  [
         {
@@ -1403,7 +1403,7 @@
     "28": {
       "title": "28. Uotila",
       "image": "28_uotila.jpg",
-      "validUntil": "2025-10-19",
+      "validUntil": "2040-12-31",
       "public": false,
       "content": [
         {
