@@ -17,6 +17,12 @@ interface DestinationContentProps {
   destination: DestinationPage;
 }
 
+const CopyrightNotice = () => (
+  <div className="copyright">
+    &copy; Havisevan maa- ja kotitalousnaiset 2025
+  </div>
+);
+
 const PrivateDestinationNote = () => (
   <div>
     <strong>
@@ -75,6 +81,7 @@ const DestinationContent = ({ destination }: DestinationContentProps) => {
             {destination.content.map((contentBlock, index) => {
               return <Block key={index} contentBlock={contentBlock} />;
             })}
+            <CopyrightNotice />
           </Grid>
         </Grid>
       </Container>
