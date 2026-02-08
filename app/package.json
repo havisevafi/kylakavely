@@ -7,7 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:e2e:debug": "playwright test --debug"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -24,6 +28,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
+    "@playwright/test": "^1.58.2",
     "@types/babel__generator": "^7.27.0",
     "@types/babel__template": "^7.4.4",
     "@types/babel__traverse": "^7.20.7",
@@ -44,6 +49,6 @@
     "typescript": "^5.8.3",
     "vite": "^6.3.5",
     "vite-plugin-checker": "^0.9.3",
-    "vitest": "^3.1.4"
+    "vitest": "^4.1.8"
   }
 }

@@ -67,7 +67,7 @@ const DestinationContent = ({ destination }: DestinationContentProps) => {
               {destination.title}
             </Typography>
           </Grid>
-          <Grid size={{ xs: 12 }} className="destination__content">
+          <Grid size={{ xs: 12 }} component="main">
             {isPrivate && <PrivateDestinationNote />}
             {destination.content.map((contentBlock, index) => {
               return <Block key={index} contentBlock={contentBlock} />;

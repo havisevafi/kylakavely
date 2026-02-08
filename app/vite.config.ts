@@ -1,3 +1,4 @@
+/// <reference types="vitest/config" />
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 import checker from 'vite-plugin-checker';
@@ -10,4 +11,7 @@ export default defineConfig({
     emptyOutDir: true,
   },
   base: '/kylakavely',
+  test: {
+    include: ['**/*.test.{ts,tsx}'],
+  },
 });
