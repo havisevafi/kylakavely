@@ -8,10 +8,41 @@
     padding: 0;
     min-height: 0;
   }
+}
 
-  & .bottom-nav-container {
+.map-bottom-nav {
+  background-color: #f7f7f7;
+  border-top: 1px solid #dddddd;
+  box-shadow: none;
+
+  &__nav {
+    height: auto;
     justify-content: space-around;
     align-items: center;
+  }
+
+  .MuiBottomNavigationAction-root {
+    min-height: 56px;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+
+    &.Mui-selected {
+      color: #ff385c;
+      font-weight: 600;
+    }
+
+    .MuiBottomNavigationAction-label {
+      font-size: 16px;
+      font-weight: 500;
+      margin-top: 4px;
+    }
+
+    &.Mui-selected .MuiBottomNavigationAction-label {
+      font-size: 16px;
+      font-weight: 600;
+    }
   }
 }
 

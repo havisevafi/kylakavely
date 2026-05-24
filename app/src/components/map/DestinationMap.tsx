@@ -1,5 +1,6 @@
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
+import Paper from '@mui/material/Paper';
 import type { LatLngLiteral } from 'leaflet';
 import { useEffect, useState } from 'react';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
@@ -101,16 +102,18 @@ export const DestinationMap = () => {
       >
         <MapContent position={position} destinations={destinations} />
       </MapContainer>
-      <BottomNavigation
-        className="bottom-nav-container"
-        showLabels
-        onChange={handleNavigation}
-      >
-        <BottomNavigationAction label="Pääsivu" value="" />
-        {canLocate && (
-          <BottomNavigationAction label="Etsi minua lähin" value="closest" />
-        )}
-      </BottomNavigation>
+      <Paper className="map-bottom-nav">
+        <BottomNavigation
+          className="map-bottom-nav__nav"
+          showLabels
+          onChange={handleNavigation}
+        >
+          <BottomNavigationAction label="Pääsivu" value="" />
+          {canLocate && (
+            <BottomNavigationAction label="Etsi minua lähin" value="closest" />
+          )}
+        </BottomNavigation>
+      </Paper>
     </div>
   );
 };
