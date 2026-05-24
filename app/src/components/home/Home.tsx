@@ -4,6 +4,7 @@ import { useRouteLoaderData } from 'react-router';
 import { DestinationsData } from '../../data';
 import { AttractionCard } from './AttractionCard.jsx';
 import { Hero } from './Hero.jsx';
+import './Home.scss';
 
 export const Home = () => {
   const { mainPage, destinations } = useRouteLoaderData(
@@ -15,22 +16,15 @@ export const Home = () => {
       <Grid
         key={id}
         size={{ xs: 12, sm: 5, md: 5, lg: 3, xl: 3 }}
-        sx={{
-          paddingTop: '16px',
-          paddingLeft: '16px',
-          width: '80%',
-          transition: 'transform 0.3s ease, box-shadow 0.3s ease',
-          '&:hover': {
-            transform: 'translateY(-4px)',
-          },
-        }}
       >
-        <AttractionCard
-          key={id}
-          id={id}
-          image={data.image}
-          title={data.title}
-        />
+        <div className="home__card">
+          <AttractionCard
+            key={id}
+            id={id}
+            image={data.image}
+            title={data.title}
+          />
+        </div>
       </Grid>
     );
   });
@@ -39,15 +33,7 @@ export const Home = () => {
     <div>
       <Hero page={mainPage} />
       <Paper>{/*Placeholder*/}</Paper>
-      <Grid
-        container
-        gap={2}
-        sx={{
-          display: 'flex',
-          justifyContent: 'center',
-          marginTop: '32px',
-        }}
-      >
+      <Grid container gap={2} className="home__container">
         {attractions}
       </Grid>
     </div>

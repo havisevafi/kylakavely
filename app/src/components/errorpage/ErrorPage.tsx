@@ -2,30 +2,20 @@ import HomeIcon from '@mui/icons-material/Home';
 import Container from '@mui/material/Container';
 import Fab from '@mui/material/Fab';
 import { useNavigate } from 'react-router';
+import './ErrorPage.scss';
 
 export const ErrorPage = () => {
   const navigate = useNavigate();
 
   return (
-    <Container
-      maxWidth="md"
-      sx={{
-        height: '100vh',
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
-      }}
-    >
+    <Container maxWidth="md" className="error-page">
       <h2>Voi ei! Jotain meni pieleen...</h2>
       <Fab
         onClick={() => navigate('/')}
         variant="extended"
         color="primary"
         aria-label="Palaa pääsivulle"
-        sx={{
-          margin: '32px',
-        }}
+        className="error-page__btn"
       >
         <HomeIcon />
         Palaa pääsivulle
