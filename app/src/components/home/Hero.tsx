@@ -57,7 +57,13 @@ export const Hero = ({ page }: HeroProps) => {
           {page.title}
         </Typography>
         {page.content.map((block, idx) => (
-          <Typography key={idx} variant="h5">
+          <Typography
+            key={idx}
+            variant="h5"
+            sx={{
+              color: '#ffffff',
+            }}
+          >
             <Block contentBlock={block} />
           </Typography>
         ))}

@@ -16,14 +16,16 @@ interface AttractionCardProps {
 export const AttractionCard = ({ id, image, title }: AttractionCardProps) => {
   return (
     <Box component="a" href={useHref(`/${id}`)} className="attraction">
-      <Card elevation={16} className="attraction__card">
+      <Card className="attraction__card">
         <CardMedia
           className="attraction__media"
           image={resolveImagePath(image)}
           title={title}
         />
         <CardContent className="attraction__content">
-          <Typography variant="h6">{title}</Typography>
+          <Typography variant="h6" className="attraction__title">
+            {title}
+          </Typography>
         </CardContent>
       </Card>
     </Box>

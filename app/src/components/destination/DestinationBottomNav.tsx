@@ -30,10 +30,42 @@ export const DestinationBottomNav = ({
         right: 0,
         width: '100%',
         zIndex: (theme) => theme.zIndex.appBar,
+        backgroundColor: '#f7f7f7',
+        borderTop: '1px solid #dddddd',
+        boxShadow: 'none',
       }}
-      elevation={3}
     >
-      <BottomNavigation showLabels onChange={onChange}>
+      <BottomNavigation
+        showLabels
+        onChange={onChange}
+        sx={{
+          height: 'auto',
+          '& .MuiBottomNavigationAction-root': {
+            minHeight: '56px',
+            padding: '8px 12px',
+            fontSize: '16px',
+            fontWeight: 500,
+            color: '#222222',
+            '&.Mui-selected': {
+              color: '#ff385c',
+              fontWeight: 600,
+            },
+            '&.Mui-disabled': {
+              color: '#cccccc',
+              cursor: 'not-allowed',
+            },
+            '& .MuiBottomNavigationAction-label': {
+              fontSize: '16px',
+              fontWeight: 500,
+              marginTop: '4px',
+            },
+            '&.Mui-selected .MuiBottomNavigationAction-label': {
+              fontSize: '16px',
+              fontWeight: 600,
+            },
+          },
+        }}
+      >
         <BottomNavigationAction
           label={prev !== undefined ? 'Edellinen' : ''}
           value={prev}

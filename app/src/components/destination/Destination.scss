@@ -1,12 +1,64 @@
 .destination {
   display: flex;
   justify-content: center;
+  width: 100%;
+  padding: 0;
+  background-color: #ffffff;
 
-  padding-bottom: 56px;
+  &__image {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0;
+    object-fit: cover;
+  }
+
+  &__title {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.18;
+    letter-spacing: -0.44px;
+    color: #222222;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    padding: 0 16px;
+    margin: 0;
+
+    @media (max-width: 600px) {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.2;
+      letter-spacing: -0.18px;
+    }
+  }
+
+  &__content {
+    width: 100%;
+    padding: 0 16px;
+
+    strong,
+    em {
+      color: #222222;
+    }
+
+    a {
+      color: #428bff;
+      text-decoration: underline;
+      transition: color 0.2s ease-in-out;
+
+      &:hover {
+        color: #2c5aa0;
+      }
+    }
+  }
 
   & img {
     max-width: 100%;
     height: auto;
+    display: block;
+    border-radius: 0;
   }
 
   & .copyright {
@@ -14,5 +66,9 @@
     margin-bottom: 24px;
     font-style: italic;
     text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    color: #6a6a6a;
   }
 }

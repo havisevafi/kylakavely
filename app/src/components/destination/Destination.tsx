@@ -43,17 +43,18 @@ const DestinationContent = ({ destination }: DestinationContentProps) => {
         title={destination.title}
         className="destination"
       >
-        <Grid container gap={8} justifyContent="center">
+        <Grid container gap={4} justifyContent="center">
           <Grid
             display="flex"
             size={{ xs: 12 }}
-            marginTop={4}
+            marginTop={2}
             justifyContent="center"
           >
             <Box
               component="img"
               src={resolveImagePath(destination.image)}
               alt={destination.title}
+              className="destination__image"
             />
           </Grid>
           <Grid size={{ xs: 12 }}>
@@ -61,22 +62,12 @@ const DestinationContent = ({ destination }: DestinationContentProps) => {
               variant="h2"
               component="h1"
               align="center"
-              sx={{
-                fontSize: {
-                  xs: '2rem',
-                  sm: '2.75rem',
-                  md: '3.5rem',
-                },
-                wordBreak: 'break-word',
-                overflowWrap: 'break-word',
-                hyphens: 'auto',
-                maxWidth: '100%',
-              }}
+              className="destination__title"
             >
               {destination.title}
             </Typography>
           </Grid>
-          <Grid size={{ xs: 12 }}>
+          <Grid size={{ xs: 12 }} className="destination__content">
             {isPrivate && <PrivateDestinationNote />}
             {destination.content.map((contentBlock, index) => {
               return <Block key={index} contentBlock={contentBlock} />;
