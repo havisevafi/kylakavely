@@ -1,0 +1,44 @@
+.destination-bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1100;
+  background-color: #f7f7f7;
+  border-top: 1px solid #dddddd;
+  box-shadow: none;
+
+  &__nav {
+    height: auto;
+  }
+
+  .MuiBottomNavigationAction-root {
+    min-height: 56px;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+
+    &.Mui-selected {
+      color: #ff385c;
+      font-weight: 600;
+    }
+
+    &.Mui-disabled {
+      color: #cccccc;
+      cursor: not-allowed;
+    }
+
+    .MuiBottomNavigationAction-label {
+      font-size: 16px;
+      font-weight: 500;
+      margin-top: 4px;
+    }
+
+    &.Mui-selected .MuiBottomNavigationAction-label {
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+}

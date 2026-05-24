@@ -4,6 +4,7 @@ import Paper from '@mui/material/Paper';
 import React from 'react';
 import { useNavigate } from 'react-router';
 import { useDirection } from '../animate/DirectionContext';
+import './DestinationBottomNav.scss';
 
 interface DestinationBottomNavProps {
   prev?: number;
@@ -22,49 +23,11 @@ export const DestinationBottomNav = ({
   };
 
   return (
-    <Paper
-      sx={{
-        position: 'fixed',
-        bottom: 0,
-        left: 0,
-        right: 0,
-        width: '100%',
-        zIndex: (theme) => theme.zIndex.appBar,
-        backgroundColor: '#f7f7f7',
-        borderTop: '1px solid #dddddd',
-        boxShadow: 'none',
-      }}
-    >
+    <Paper className="destination-bottom-nav">
       <BottomNavigation
         showLabels
         onChange={onChange}
-        sx={{
-          height: 'auto',
-          '& .MuiBottomNavigationAction-root': {
-            minHeight: '56px',
-            padding: '8px 12px',
-            fontSize: '16px',
-            fontWeight: 500,
-            color: '#222222',
-            '&.Mui-selected': {
-              color: '#ff385c',
-              fontWeight: 600,
-            },
-            '&.Mui-disabled': {
-              color: '#cccccc',
-              cursor: 'not-allowed',
-            },
-            '& .MuiBottomNavigationAction-label': {
-              fontSize: '16px',
-              fontWeight: 500,
-              marginTop: '4px',
-            },
-            '&.Mui-selected .MuiBottomNavigationAction-label': {
-              fontSize: '16px',
-              fontWeight: 600,
-            },
-          },
-        }}
+        className="destination-bottom-nav__nav"
       >
         <BottomNavigationAction
           label={prev !== undefined ? 'Edellinen' : ''}

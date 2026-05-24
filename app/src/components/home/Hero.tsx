@@ -8,6 +8,7 @@ import { useNavigate } from 'react-router';
 import { PageBase } from '../../data';
 import { resolveImagePath } from '../../util/util.js';
 import { Block } from '../contentblocks';
+import './Hero.scss';
 
 interface HeroProps {
   page: PageBase;
@@ -17,36 +18,14 @@ export const Hero = ({ page }: HeroProps) => {
   const navigate = useNavigate();
   return (
     <Box
-      sx={{
-        height: '40vh',
-        width: '100%',
+      className="hero"
+      style={{
         backgroundImage: `url(${resolveImagePath(`${page.image}`)})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        position: 'relative',
-        color: '#fff',
-        textAlign: 'center',
       }}
     >
-      <Box
-        sx={{
-          position: 'absolute',
-          inset: 0,
-          backgroundColor: 'rgba(0,0,0,0.4)',
-          zIndex: 1,
-        }}
-      />
+      <Box className="hero__overlay" />
 
-      <Container
-        sx={{
-          position: 'relative',
-          zIndex: 2,
-        }}
-      >
+      <Container className="hero__content">
         <Typography
           variant="h2"
           component="h1"
@@ -57,13 +36,7 @@ export const Hero = ({ page }: HeroProps) => {
           {page.title}
         </Typography>
         {page.content.map((block, idx) => (
-          <Typography
-            key={idx}
-            variant="h5"
-            sx={{
-              color: '#ffffff',
-            }}
-          >
+          <Typography key={idx} variant="h5" className="hero__subtitle">
             <Block contentBlock={block} />
           </Typography>
         ))}
@@ -72,16 +45,10 @@ export const Hero = ({ page }: HeroProps) => {
           variant="extended"
           color="secondary"
           aria-label="Näytä kyläkävelyn kohteet kartalla"
-          sx={{
-            margin: '32px',
-          }}
+          className="hero__fab"
         >
-          <div style={{ display: 'flex', alignItems: 'center' }}>
-            <span style={{ marginRight: '6px' }}>
-              <MapIcon />
-            </span>
-            <span>Kohteet kartalla</span>
-          </div>
+          <span>Kohteet kartalla</span>
+          <MapIcon />
         </Fab>
       </Container>
     </Box>
