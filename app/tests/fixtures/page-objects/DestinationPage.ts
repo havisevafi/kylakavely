@@ -17,6 +17,8 @@ export class DestinationPage extends BasePage {
   readonly nextButton = this.page.getByRole('button', { name: 'Seuraava' });
   readonly homeButton = this.page.getByRole('button', { name: 'Pääsivu' });
   readonly images = this.page.locator('img');
+  readonly copyrightNotice = this.page.locator('.copyright');
+  readonly bottomNav = this.page.locator('.destination-bottom-nav');
 
   async isOnPage() {
     // TODO: try to remove flakiness due to duplicate main element. first() was added

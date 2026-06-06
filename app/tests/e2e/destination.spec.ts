@@ -62,4 +62,18 @@ test.describe('Destination Detail Pages', () => {
   test('Navigation controls present', async () => {
     await expect(destinationPage.homeButton).toBeVisible();
   });
+
+  test('CopyrightNotice is visible above the bottom navigation', async () => {
+    const copyright = destinationPage.copyrightNotice;
+
+    await copyright.scrollIntoViewIfNeeded();
+    await expect(copyright).toBeVisible();
+
+    const copyrightBox = await copyright.boundingBox();
+    const navBox = await destinationPage.bottomNav.boundingBox();
+
+    if (copyrightBox && navBox) {
+      expect(copyrightBox.y + copyrightBox.height).toBeLessThanOrEqual(navBox.y);
+    }
+  });
 });
