@@ -23,8 +23,16 @@
     z-index: 2;
   }
 
-  &__subtitle {
+  & &__title {
+    font-size: 2.5rem;
+  }
+
+  & &__subtitle {
     color: #ffffff;
+  }
+
+  & &__subtitle p {
+    font-size: 1.25rem;
   }
 
   &__fab {

@@ -24,7 +24,7 @@ const CopyrightNotice = () => (
 );
 
 const PrivateDestinationNote = () => (
-  <div>
+  <div className="private-destination-note">
     <strong>
       <em>
         Tämä kohde on yksityisalueella, tutustu kohteeseen vain tieltä. Ethän

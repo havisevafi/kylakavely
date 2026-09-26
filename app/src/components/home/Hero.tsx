@@ -27,6 +27,7 @@ export const Hero = ({ page }: HeroProps) => {
 
       <Container className="hero__content">
         <Typography
+          className="hero__title"
           variant="h2"
           component="h1"
           gutterBottom
